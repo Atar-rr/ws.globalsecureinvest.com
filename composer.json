@@ -1,0 +1,15 @@
+{
+    "name": "sdidenko/sp_web_socket",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Сергей Диденко",
+            "email": "s.didenko@rabota.ru"
+        }
+    ],
+    "require": {
+        "textalk/websocket": "^1.5",
+        "workerman/workerman": "^4.0",
+        "ext-json": "*"
+    }
+}
