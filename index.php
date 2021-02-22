@@ -2,9 +2,20 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+$context = array(
+    'ssl' => array(
+        'local_cert'=> '/etc/ssl/certs/domain.csr',
+        'local_pk' => '/etc/ssl/certs/domain.key',
+        'verify_peer'  => false,
+    )
+);
+
 \Workerman\Worker::$daemonize=true;
-$webSocketWorker = new \Workerman\Worker('websocket://0.0.0.0:2346');
+$webSocketWorker = new \Workerman\Worker('websocket://0.0.0.0:2346', $context);
 $webSocketWorker->count = 1;
+$webSocketWorker->transport = 'ssl';
+
+
 $client = new WebSocket\Client("wss://ws.finnhub.io?token=c0nakvf48v6v9lphti50");
 
 $webSocketWorker->onConnect = function ($connection) use ($client) {
