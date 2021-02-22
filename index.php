@@ -26,7 +26,6 @@ $webSocketWorker->onConnect = function ($connection) use ($client) {
 
     echo "New connection\n";
 };
-
 $webSocketWorker->onMessage = function ($connection, $data) use ($webSocketWorker, $client) {
     $connection->send($client->receive());
 };
