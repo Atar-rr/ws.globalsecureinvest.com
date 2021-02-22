@@ -11,7 +11,23 @@ $webSocketWorker->onConnect = function ($connection) {
 };
 
 $webSocketWorker->onMessage = function ($connection, $data) use ($webSocketWorker, $client) {
-    $client->text(json_encode(['type' => 'subscribe', 'symbol' => 'AAPL']));
+    $client->text(json_encode([
+        ['type' => 'subscribe', 'symbol' => 'AAPL'],
+        ['type' => 'subscribe', 'symbol' => 'AMZN'],
+        ['type' => 'subscribe', 'symbol' => 'MSFT'],
+        ['type' => 'subscribe', 'symbol' => 'GTHX'],
+        ['type' => 'subscribe', 'symbol' => 'PLTR'],
+        ['type' => 'subscribe', 'symbol' => 'ATVI'],
+        ['type' => 'subscribe', 'symbol' => 'EA'],
+        ['type' => 'subscribe', 'symbol' => 'PYPL'],
+        ['type' => 'subscribe', 'symbol' => 'CRM'],
+        ['type' => 'subscribe', 'symbol' => 'TTWO'],
+        ['type' => 'subscribe', 'symbol' => 'ADBE'],
+        ['type' => 'subscribe', 'symbol' => 'NFLX'],
+        ['type' => 'subscribe', 'symbol' => 'GOOG'],
+        ['type' => 'subscribe', 'symbol' => 'TSLA'],
+        ['type' => 'subscribe', 'symbol' => 'FB'],
+    ]));
     $connection->send($client->receive());
 };
 
