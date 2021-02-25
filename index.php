@@ -9,6 +9,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 $httpClient = new \GuzzleHttp\Client();
 
 //получаем данные о том, какие акции нужно получать
+
 try {
     $httpClient = new \GuzzleHttp\Client();
     $data = $httpClient->request('GET', '');
@@ -20,24 +21,24 @@ try {
 
 $context = [
     'ssl' => [
-        'local_cert'=> __DIR__ . '/cert.pem',
-        'local_pk' =>  __DIR__ . '/key.pem',
+        'local_cert'=> '/etc/letsencrypt/live/ws.globalsecureinvest.com/cert.pem',
+        'local_pk' =>  '/etc/letsencrypt/live/ws.globalsecureinvest.com/privkey.pem',
         'verify_peer'  => false,
     ]
 ];
 
 //включаем режим демона
-//\Workerman\Worker::$daemonize=true;
+\Workerman\Worker::$daemonize=true;
 
 //создаем WebSocket
-$webSocketWorker = new \Workerman\Worker('websocket://0.0.0.0:2346', $context);
+$webSocketWorker = new \Workerman\Worker('websocket://45.90.33.104:2346', $context);
 $webSocketWorker->count = 4;
-//$webSocketWorker->transport = 'ssl';
+$webSocketWorker->transport = 'ssl';
 
 
 $client = new Client("wss://ws.finnhub.io?token=c0nakvf48v6v9lphti50");
 $client->setFragmentSize(30000);
-$client->setTimeout(100);
+$client->setTimeout(50);
 
 $webSocketWorker->onConnect = function ($connection) use ($client, $symbols) {
     echo "New connection\n";
@@ -50,20 +51,19 @@ $webSocketWorker->onConnect = function ($connection) use ($client, $symbols) {
 
 $webSocketWorker->onMessage = function ($connection, $message) use ($webSocketWorker, $client) {
 
-    $time_interval = 1.5;
+    $time_interval = 1.3;
     Timer::add($time_interval, function() use ($connection, $client, $message)
     {
         $result = [];
         $resultFinhub = json_decode($client->receive(), true);
 
         $returnSymb = json_decode($message, true);
-        if ($message !== null && !empty($resultFinhub)) {
+        if (!empty($returnSymb) && !empty($resultFinhub)) {
             $result = array_filter($resultFinhub['data'], function ($item) use ($returnSymb) {
                 return in_array($item['s'], $returnSymb);
             });
         }
-
-        $connection->send($message !== null ? json_encode($result, JSON_UNESCAPED_UNICODE) : json_encode($resultFinhub, JSON_UNESCAPED_UNICODE));
+        $connection->send(empty($returnSymb) === false ? json_encode($result, JSON_UNESCAPED_UNICODE) : json_encode($resultFinhub, JSON_UNESCAPED_UNICODE));
     });
 };
 

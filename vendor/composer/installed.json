@@ -45,20 +45,6 @@
             "web socket client",
             "web socket server",
             "web-sockets"
-        ],
-        "funding": [
-            {
-                "url": "https://issuehunt.io/r/arthurkushman",
-                "type": "issuehunt"
-            },
-            {
-                "url": "https://liberapay.com/arthurkushman",
-                "type": "liberapay"
-            },
-            {
-                "url": "https://www.patreon.com/user?u=26175584",
-                "type": "patreon"
-            }
         ]
     },
     {
@@ -141,24 +127,6 @@
             "psr-7",
             "rest",
             "web service"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/GrahamCampbell",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/Nyholm",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/alexeyshockov",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/gmponos",
-                "type": "github"
-            }
         ]
     },
     {

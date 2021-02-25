@@ -3879,3 +3879,1498 @@ Stack trace:
 #15 {main}
 2021-02-25 01:54:59 pid:1062 worker[none:1063] exit with status 64000
 2021-02-25 01:54:59 pid:1062 Workerman[index.php] has been stopped
+2021-02-25 12:25:25 pid:31068 Workerman[index.php] start in DAEMON mode
+2021-02-25 12:25:32 pid:31079 Workerman[index.php] restart 
+2021-02-25 12:25:32 pid:31079 Workerman[index.php] is stopping ...
+2021-02-25 12:25:32 pid:31070 Workerman[index.php] stopping ...
+2021-02-25 12:25:33 pid:31072 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:25:33 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d295d221d459f5e83bc366b7a66d3cc121614255932; expires=Sat, 27-Mar-21 12:25:32 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087abfddd700007a719f92a000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=XtiTfNz3BCd%2BmFwH2Lt9J58YsuJ9Ur4OWsOsXcDi3zUZB8xgp06fC7a7WlORrzi%2FxOSPWfI%2FLDaELpcN2A9MC%2F0hTD9HjIwmH%2FgqPa3%2B%2BIfCHg%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 627168dc8f467a71-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(80): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:25:33 pid:31070 worker[none:31072] exit with status 64000
+2021-02-25 12:25:33 pid:31071 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:25:33 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d390e7f9b01db316fb8f4fb611406e0171614255932; expires=Sat, 27-Mar-21 12:25:32 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087abfddf800000c48c4a98000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Z9PtJGFAh4wpsfQcDogzQSH77z8XIN3HyWEz3zEEgI9lfsQYEgSdMbQtwvcQYUV871DgGSoUwlATysNXaLaNfSOYA8xXuNRp9TZdX2Bb9EuyQg%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 627168dcba030c48-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(80): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:25:33 pid:31070 worker[none:31071] exit with status 64000
+2021-02-25 12:25:33 pid:31070 Workerman[index.php] has been stopped
+2021-02-25 12:25:33 pid:31079 Workerman[index.php] stop success
+2021-02-25 12:25:45 pid:31086 Workerman[index.php] stop 
+2021-02-25 12:25:45 pid:31086 Workerman[index.php] is stopping ...
+2021-02-25 12:25:45 pid:31081 Workerman[index.php] stopping ...
+2021-02-25 12:25:45 pid:31084 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:25:45 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d11c30bf32ac9fa53ad77793a170a84951614255945; expires=Sat, 27-Mar-21 12:25:45 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac00d9a00000c4863acd000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=l8bdN2HICXhs4UXpBcA8cUNyFUMxxJrtwtAzRCfl83zK9nvlPbEWnJILNztJCaSVNinemJ9IfPagAeBLrjxdwc5tlrNxM7MTEdeldCOSuAqwAw%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 62716928ff430c48-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(80): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:25:45 pid:31081 worker[none:31084] exit with status 64000
+2021-02-25 12:25:45 pid:31083 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:25:45 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d453d75c6e9323b7cb43ef1a1f63fe4bd1614255945; expires=Sat, 27-Mar-21 12:25:45 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac00d9c000013c67ab09000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=epu5ehbyp1IzeUYhY5QZcyES9CI0B40J5h6hKNspxBqKbng8cA1iLgV%2F1ZBWYoMkBiZ%2BPBpS4Hg1DEgbUhLmqgzotjPfrOXzMfpKOeTRLaxE%2BA%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 62716928fa9a13c6-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(80): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:25:45 pid:31081 worker[none:31083] exit with status 64000
+2021-02-25 12:25:45 pid:31081 Workerman[index.php] has been stopped
+2021-02-25 12:25:45 pid:31086 Workerman[index.php] stop success
+2021-02-25 12:26:27 pid:31187 Workerman[index.php] start in DAEMON mode
+2021-02-25 12:26:33 pid:31194 Workerman[index.php] restart 
+2021-02-25 12:26:33 pid:31194 Workerman[index.php] is stopping ...
+2021-02-25 12:26:33 pid:31189 Workerman[index.php] stopping ...
+2021-02-25 12:26:34 pid:31191 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:26:34 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d5b623c3ae03e4ec57d750ae8d41bbfbc1614255993; expires=Sat, 27-Mar-21 12:26:33 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac0cc2a00003aa17b2e0000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=zgn1TkwdORbaU9%2FNfZGoFvfwIY3jV81zlXIiPvrzzso6PqfEbGDPZmjFvhn54ZKRfsRyCE4jbxl4Ija7XzPMwIUkshXY0hiBxtnBfupNacipMw%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 62716a59de413aa1-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:26:34 pid:31189 worker[none:31191] exit with status 64000
+2021-02-25 12:26:34 pid:31190 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:26:34 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dd9b98b55acd7a4dc109993c80c75d7131614255993; expires=Sat, 27-Mar-21 12:26:33 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac0cc4d00009069df262000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=I4x%2FL6%2F8JQUow%2B8dJC79HAvAR3u%2FO5T8BdSHTmTxaOHn%2FW71aQU0IzdV3Dco1rtc%2FqSAxP8j4vqSK9V0JeUQuoXwCOQI5WPU1Mm2GTcT09DL6A%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 62716a5a1cce9069-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:26:34 pid:31189 worker[none:31190] exit with status 64000
+2021-02-25 12:26:34 pid:31189 Workerman[index.php] has been stopped
+2021-02-25 12:26:34 pid:31194 Workerman[index.php] stop success
+2021-02-25 12:26:44 pid:31456 Workerman[index.php] stop 
+2021-02-25 12:26:44 pid:31456 Workerman[index.php] is stopping ...
+2021-02-25 12:26:44 pid:31196 Workerman[index.php] stopping ...
+2021-02-25 12:26:45 pid:31199 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:26:45 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db2b4b333de97eb72421f990506de3a151614256004; expires=Sat, 27-Mar-21 12:26:44 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac0f72c00002de7eb2a3000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=h44wXQtQmyKIjabqBuOsjrqPVjWxAipwNORfWNtH4pdO%2By1CHO8KB8DtqTDik6bpifCbjE8%2BM%2BaL2A%2BBXFYNNH%2FOGiGKUDB4%2BzdZlW17c%2B6Y6Q%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 62716a9eadfa2de7-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:26:45 pid:31196 worker[none:31199] exit with status 64000
+2021-02-25 12:26:45 pid:31197 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:26:45 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dfb6836316228b96045f255ed42c111311614256004; expires=Sat, 27-Mar-21 12:26:44 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac0f73000002de4ed2b0000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=mb4c3L4JtpD5jQooNxHLX%2BaKUYzFeUDOWTqleOLmgY8I9kiwZGP3b3WYJnarQItFqdY3EAU9VN8Fe5gRYB7mBu32SiyfDjc4ZoC46%2BKOie1CPg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 62716a9eb9052de4-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:26:45 pid:31196 worker[none:31197] exit with status 64000
+2021-02-25 12:26:45 pid:31196 Workerman[index.php] has been stopped
+2021-02-25 12:26:45 pid:31456 Workerman[index.php] stop success
+2021-02-25 12:32:05 pid:31510 Workerman[/var/www/Web_Socket_Sp/index.php] restart 
+2021-02-25 12:32:05 pid:31510 Workerman[/var/www/Web_Socket_Sp/index.php] is stopping ...
+2021-02-25 12:32:05 pid:31510 Workerman[/var/www/Web_Socket_Sp/index.php] stop success
+2021-02-25 12:32:11 pid:31517 Workerman[/var/www/Web_Socket_Sp/index.php] restart 
+2021-02-25 12:32:11 pid:31517 Workerman[/var/www/Web_Socket_Sp/index.php] is stopping ...
+2021-02-25 12:32:11 pid:31512 Workerman[index.php] stopping ...
+2021-02-25 12:32:12 pid:31515 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:32:12 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d2c6e2049a963d5d873e73ec59791e56f1614256331; expires=Sat, 27-Mar-21 12:32:11 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac5f4cd00003a830884e000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=HFB6m15bUJH4ZL6OxMxTWZ4GIuE%2Fpm66yDyyJTC85GcffWqaKs289eklTao6ug7vjTTrUPLjAG5tSj%2BOHD0PbFrHo8rptXdR0Y%2FXc1fD2fs5aQ%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6271729aed7f3a83-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:32:12 pid:31513 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:32:12 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=df0d428f079bc62eef58042573537e3151614256331; expires=Sat, 27-Mar-21 12:32:11 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac5f4d3000000650da20000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=NrOSy8PJporbU%2B6al9zYAEjrXlhKoMCaZCWZboBmefUYDTKeBnRvCodtu1ezELyHrXO5SNY54GnTaW66pZ7Z8dgJRmgqjA%2Bhpv0T5rj%2Bxb716g%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6271729aedff0065-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:32:12 pid:31512 worker[none:31513] exit with status 64000
+2021-02-25 12:32:12 pid:31512 worker[none:31515] exit with status 64000
+2021-02-25 12:32:12 pid:31512 Workerman[index.php] has been stopped
+2021-02-25 12:32:12 pid:31517 Workerman[/var/www/Web_Socket_Sp/index.php] stop success
+2021-02-25 12:32:27 pid:31539 Workerman[index.php] stop 
+2021-02-25 12:32:27 pid:31539 Workerman[index.php] is stopping ...
+2021-02-25 12:32:27 pid:31519 Workerman[index.php] stopping ...
+2021-02-25 12:32:28 pid:31522 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:32:28 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d5f57f94b76d18863768b628e4a87c7011614256347; expires=Sat, 27-Mar-21 12:32:27 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac632f200007b6be01f7000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=M0acE6iTasOuSX7xGfNXC6SDSjqPBy3DmyTkGXAKhvsFISI8e0h76nAlvfsDh2vzajih44hljD8FNSDZ5XqJzWe8EB%2FkquhajI3ynAUIemZUKg%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 627172fe5e5b7b6b-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:32:28 pid:31519 worker[none:31522] exit with status 64000
+2021-02-25 12:32:28 pid:31520 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 12:32:28 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d01e1396ea5f98b6890eff81339b6a2d31614256347; expires=Sat, 27-Mar-21 12:32:27 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ac6331000005aaa850e1000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=VixgBKw8ReajUj5uPZ1DJrSRLQLdeEBR4xtPrMu%2FZo5D4kebDfr%2F%2F%2BDxjVhvHJNqL1PeR5yzKUxZinQyZ9CclskRw1D1wuEIT2aNaPDoywOMfw%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 627172fe7cd85aaa-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 12:32:28 pid:31519 worker[none:31520] exit with status 64000
+2021-02-25 12:32:28 pid:31519 Workerman[index.php] has been stopped
+2021-02-25 12:32:28 pid:31539 Workerman[index.php] stop success
+2021-02-25 13:00:01 pid:31821 Workerman[/var/www/Web_Socket_Sp/index.php] restart 
+2021-02-25 13:00:02 pid:31821 Workerman[/var/www/Web_Socket_Sp/index.php] is stopping ...
+2021-02-25 13:00:02 pid:31821 Workerman[/var/www/Web_Socket_Sp/index.php] stop success
+2021-02-25 13:00:29 pid:31829 Workerman[/var/www/Web_Socket_Sp/index.php] status 
+2021-02-25 13:01:00 pid:31832 Workerman[/var/www/Web_Socket_Sp/index.php] restart 
+2021-02-25 13:01:00 pid:31832 Workerman[/var/www/Web_Socket_Sp/index.php] is stopping ...
+2021-02-25 13:01:00 pid:31823 Workerman[index.php] stopping ...
+2021-02-25 13:01:00 pid:31827 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 13:01:00 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d92ef81887776e58bb08052b636e235d61614258060; expires=Sat, 27-Mar-21 13:01:00 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ae054c0000075a37b169000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=il0Ubnu6hLGyJgZe48D%2F2v13evf1zoUYYx0pm3xRjg7QLosty4lNoq4bkucLUzpF4WhUsTUQJpapVQWMNUIin8urZm0P3VJVmTM%2BbSQh7nSogQ%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 62719cce096775a3-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 13:01:00 pid:31823 worker[none:31827] exit with status 64000
+2021-02-25 13:01:00 pid:31826 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 13:01:00 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db62ba6dd3a443b5c53dd326c5a34782f1614258060; expires=Sat, 27-Mar-21 13:01:00 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087ae054d3000013c6943a1000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=uobD%2F9P2WZS3jRrWVkYzF2jKicDoTEzQSJ9EGr74ws%2BAh%2BgxSWRTwLTDWPnIgWHmwvPSEoSK8UAOKZ5F2BIqBACd6ByhZE5VG3TiJqZvSdKanw%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 62719cce1aef13c6-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 13:01:00 pid:31823 worker[none:31826] exit with status 64000
+2021-02-25 13:01:01 pid:31823 Workerman[index.php] has been stopped
+2021-02-25 13:01:01 pid:31832 Workerman[/var/www/Web_Socket_Sp/index.php] stop success
+2021-02-25 13:01:07 pid:31839 Workerman[/var/www/Web_Socket_Sp/index.php] status 
+2021-02-25 14:00:01 pid:32214 Workerman[/var/www/Web_Socket_Sp/index.php] restart 
+2021-02-25 14:00:01 pid:32214 Workerman[/var/www/Web_Socket_Sp/index.php] is stopping ...
+2021-02-25 14:00:01 pid:31834 Workerman[index.php] stopping ...
+2021-02-25 14:00:01 pid:31838 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 14:00:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d8ca8a1a0293ce6f5d8ccd3c12c2326951614261601; expires=Sat, 27-Mar-21 14:00:01 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087b165c2900000c4ed216d000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ezOr32d4IUzfq5a77tWSpPxEwjS5g4KpfSVYP5YtJt2dqCltGv3fWWKbTPk%2BcftqIwaZrJa7IGfyOisUaVRK9T5iMv7JTvX0H6XWXo%2FTWAPS1Q%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6271f340490f0c4e-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 14:00:01 pid:31834 worker[none:31838] exit with status 64000
+2021-02-25 14:00:01 pid:31837 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 14:00:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d67368b740b2c75894019e095f64847e71614261601; expires=Sat, 27-Mar-21 14:00:01 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087b165c37000076ad3f0c2000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2FwYau6a11oya8rZLV6LUHuq8Iays0hw%2BoSzwRmUG%2B5gD0n6gKUzMBV3rvzmF9iahswIDoVg%2FWYEKQXGVApRj7TKtC1jO4SUNFJyA2mUsz7PUww%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6271f3404a2e76ad-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 14:00:01 pid:31834 worker[none:31837] exit with status 64000
+2021-02-25 14:00:01 pid:31834 Workerman[index.php] has been stopped
+2021-02-25 14:00:01 pid:32214 Workerman[/var/www/Web_Socket_Sp/index.php] stop success
+2021-02-25 15:00:01 pid:2038 Workerman[/var/www/Web_Socket_Sp/index.php] restart 
+2021-02-25 15:00:01 pid:2038 Workerman[/var/www/Web_Socket_Sp/index.php] is stopping ...
+2021-02-25 15:00:01 pid:32216 Workerman[index.php] stopping ...
+2021-02-25 15:00:01 pid:32218 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 15:00:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d3faa13805f22fa718cdaeb743707ccee1614265201; expires=Sat, 27-Mar-21 15:00:01 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087b4d4aa000000c3c45223000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=bMvWtFyl57WOBJfzROR2rXzX9WejRalGKRwjaZSErlgwtWr6nb1H7tcTzzR1OF%2F8ANnyfaN1pOCfdp3Jyab3g0vFZz1fhtDYb1bDpOJYBXqhwg%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 62724b243d550c3c-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 15:00:01 pid:32216 worker[none:32218] exit with status 64000
+2021-02-25 15:00:01 pid:32219 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 15:00:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d721fa7d632ed81092490712567fe6bbb1614265201; expires=Sat, 27-Mar-21 15:00:01 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087b4d4b1200008ec5048e9000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=IEbLUOAIcLYjy1IFUt5dp5q6VuNr6xiqlMm2yARZaSKwGN%2B6r2KYzTcVEWI05JU5s3TCvxJrDiHFhvvFQ4gMjorp%2BymFWGerTBDOD9ik%2F9iStQ%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 62724b24eea68ec5-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 15:00:01 pid:32216 worker[none:32219] exit with status 64000
+2021-02-25 15:00:01 pid:32216 Workerman[index.php] has been stopped
+2021-02-25 15:00:01 pid:2038 Workerman[/var/www/Web_Socket_Sp/index.php] stop success
+2021-02-25 16:00:01 pid:2231 Workerman[/var/www/Web_Socket_Sp/index.php] restart 
+2021-02-25 16:00:01 pid:2231 Workerman[/var/www/Web_Socket_Sp/index.php] is stopping ...
+2021-02-25 16:00:01 pid:2040 Workerman[index.php] stopping ...
+2021-02-25 16:00:01 pid:2041 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 16:00:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dded0ab093dfac1fd3fd483bfcdf4a8cf1614268801; expires=Sat, 27-Mar-21 16:00:01 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087b8438ad00000065c62ac000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=EiI6oXzVjj3CUvL1DuyJmDF9KZ%2FmH9z7x59Q326dNqBq5ac9%2BxN0gOSg8nY6Ao%2F5ZFt0pUk%2FARy79LMC5hfHdFey0wcjkxg8KNMLxVU%2FM267Xg%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6272a3077bd90065-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 16:00:01 pid:2040 worker[none:2041] exit with status 64000
+2021-02-25 16:00:01 pid:2043 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 16:00:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d010b9df3a34ec6b95dbf843e08258d231614268801; expires=Sat, 27-Mar-21 16:00:01 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087b8439a400003a95dea1c000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=bLBqFEdz08YnZv70FmYyTBYt4yF399O55vXPJHbvJadjwLKgPEbWSqVLVLF4ic2mSICG6JXeT7YCW3MCo0jNwjJiM56%2F0lv9ernuDPPi9IwdaQ%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6272a3090b9e3a95-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 16:00:01 pid:2040 worker[none:2043] exit with status 64000
+2021-02-25 16:00:01 pid:2040 Workerman[index.php] has been stopped
+2021-02-25 16:00:01 pid:2231 Workerman[/var/www/Web_Socket_Sp/index.php] stop success
+2021-02-25 17:00:01 pid:2380 Workerman[/var/www/Web_Socket_Sp/index.php] restart 
+2021-02-25 17:00:01 pid:2380 Workerman[/var/www/Web_Socket_Sp/index.php] is stopping ...
+2021-02-25 17:00:01 pid:2233 Workerman[index.php] stopping ...
+2021-02-25 17:00:01 pid:2235 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 17:00:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d00e7e9f005c9557ecd7c5c2d2ec019b01614272401; expires=Sat, 27-Mar-21 17:00:01 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087bbb27dc00000c3c4bafe000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=lFfG72dGgzdShBJHX3mIthaXPheYtcZ8bBTbq3HAZtQLTX%2B1qxpFa4xvUiJ%2FPB9v%2F%2B3L7W74HqAQCX6UWL8fLHZ40DhuEYVpej1W27Q47XUJ0w%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6272faec9bb60c3c-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 17:00:01 pid:2237 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 17:00:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=daea642c9860bb067c43cf5e7c3e3004e1614272401; expires=Sat, 27-Mar-21 17:00:01 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087bbb27de00007b5b7c38d000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=s3EN6BfsucwF1iFqwW%2Fletj1BKQyw1NHpd9M8YWCpULPUbfWdOmb7wjhCz03zwgqBmftYqXmOnk9mI8ecb9iNfa2rRt2D3pZsVFwygGANoFLKQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6272faec9d5d7b5b-DME in /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/Web_Socket_Sp/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/Web_Socket_Sp/index.php(81): WebSocket\Base->text()
+#3 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/Web_Socket_Sp/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/Web_Socket_Sp/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 17:00:01 pid:2233 worker[none:2237] exit with status 64000
+2021-02-25 17:00:01 pid:2233 worker[none:2235] exit with status 64000
+2021-02-25 17:00:01 pid:2233 Workerman[index.php] has been stopped
+2021-02-25 17:00:01 pid:2380 Workerman[/var/www/Web_Socket_Sp/index.php] stop success
+2021-02-25 17:45:42 pid:2943 Workerman[index.php] status 
+2021-02-25 17:45:42 pid:2943 Workerman[index.php] not run
+2021-02-25 17:45:44 pid:2944 Workerman[index.php] status 
+2021-02-25 17:45:44 pid:2944 Workerman[index.php] not run
+2021-02-25 17:45:46 pid:2947 Workerman[index.php] start in DAEMON mode
+2021-02-25 17:47:20 pid:11852 Workerman[index.php] status 
+2021-02-25 17:47:26 pid:13683 Workerman[index.php] stop 
+2021-02-25 17:47:26 pid:13683 Workerman[index.php] is stopping ...
+2021-02-25 17:47:26 pid:2949 Workerman[index.php] stopping ...
+2021-02-25 17:47:28 pid:2949 worker[none:2951] exit with status 9
+2021-02-25 17:47:28 pid:2949 worker[none:2952] exit with status 9
+2021-02-25 17:47:28 pid:2949 worker[none:2953] exit with status 9
+2021-02-25 17:47:28 pid:2949 Workerman[index.php] has been stopped
+2021-02-25 17:47:28 pid:13683 Workerman[index.php] stop success
+2021-02-25 17:48:17 pid:29930 Workerman[index.php] start in DEBUG mode
+2021-02-25 17:53:32 pid:3441 Workerman[index.php] start in DEBUG mode
+2021-02-25 17:53:32 pid:3441 Workerman[index.php] already running
+2021-02-25 17:53:35 pid:29930 Workerman[index.php] stopping ...
+2021-02-25 17:53:35 pid:29930 worker[none:29937] exit with status 5247
+2021-02-25 17:53:53 pid:9878 Workerman[index.php] start in DEBUG mode
+2021-02-25 17:54:30 pid:9885 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 17:54:30 pid:9885 Worker[9885] process terminated
+2021-02-25 17:54:30 pid:9878 worker[none:9885] exit with status 64000
+2021-02-25 17:56:41 pid:9878 Workerman[index.php] stopping ...
+2021-02-25 17:56:41 pid:9878 worker[none:9886] exit with status 5247
+2021-02-25 17:57:19 pid:9889 Workerman[index.php] start in DEBUG mode
+2021-02-25 17:57:57 pid:9894 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 17:57:57 pid:9894 Worker[9894] process terminated
+2021-02-25 17:57:57 pid:9889 worker[none:9894] exit with status 64000
+2021-02-25 17:59:16 pid:9889 Workerman[index.php] stopping ...
+2021-02-25 17:59:16 pid:9889 worker[none:9893] exit with status 5247
+2021-02-25 17:59:36 pid:9893 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(81): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 17:59:41 pid:9896 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(81): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 17:59:50 pid:25147 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:05:34 pid:31593 Workerman[/var/www/ws.globalsecureinvest.com2/index.php] start in DEBUG mode
+2021-02-25 18:05:34 pid:31593 Workerman[/var/www/ws.globalsecureinvest.com2/index.php] already running
+2021-02-25 18:05:38 pid:25147 Workerman[index.php] stopping ...
+2021-02-25 18:05:38 pid:25147 worker[none:25154] exit with status 5247
+2021-02-25 18:05:38 pid:25155 WebSocket\ConnectionException: Could only write 0 out of 44 bytes. in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php:473
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(432): WebSocket\Base->throwException()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(216): WebSocket\Base->write()
+#2 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(95): WebSocket\Base->sendFragment()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#4 /var/www/ws.globalsecureinvest.com2/index.php(81): WebSocket\Base->text()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#9 [internal function]: Workerman\Events\Select->signalHandler()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#14 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#15 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#16 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#17 {main}
+2021-02-25 18:05:48 pid:3513 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:06:08 pid:25156 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(81): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 18:06:22 pid:3522 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 18:06:22 pid:3522 Worker[3522] process terminated
+2021-02-25 18:06:22 pid:3513 worker[none:3522] exit with status 64000
+2021-02-25 18:10:08 pid:15527 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:10:08 pid:15527 Workerman[index.php] already running
+2021-02-25 18:10:11 pid:3513 Workerman[index.php] stopping ...
+2021-02-25 18:10:11 pid:3513 worker[none:3520] exit with status 5247
+2021-02-25 18:10:23 pid:20181 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:12:43 pid:20181 Workerman[index.php] stopping ...
+2021-02-25 18:12:43 pid:20181 worker[none:20189] exit with status 5247
+2021-02-25 18:12:43 pid:20186 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response:  in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 18:12:43 pid:20186 Worker[20186] process terminated
+2021-02-25 18:12:53 pid:20188 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 18:12:53 pid:20188 Worker[20188] process terminated
+2021-02-25 18:12:58 pid:2005 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:13:13 pid:20189 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(81): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 18:13:31 pid:2013 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 18:13:31 pid:2013 Worker[2013] process terminated
+2021-02-25 18:13:31 pid:2005 worker[none:2013] exit with status 64000
+2021-02-25 18:14:06 pid:2015 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution (0) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution). in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 18:14:06 pid:2015 Worker[2015] process terminated
+2021-02-25 18:14:06 pid:2005 worker[none:2015] exit with status 64000
+2021-02-25 18:14:57 pid:2005 Workerman[index.php] stopping ...
+2021-02-25 18:14:57 pid:2005 worker[none:2014] exit with status 5247
+2021-02-25 18:17:06 pid:12259 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:23:03 pid:22702 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:23:03 pid:22702 Workerman[index.php] already running
+2021-02-25 18:23:06 pid:12259 Workerman[index.php] stopping ...
+2021-02-25 18:23:06 pid:12267 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 18:23:06 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dda47fe3c5646a3a1fa04c838958a30a91614277386; expires=Sat, 27-Mar-21 18:23:06 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c0738d900007a6d7c826000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=OZJRWFOdCSGNSBowCo9jmNTThm0ZUKN1Bd%2Fbo2ENhcDbsT%2BVPU2TLgnNInGvAGQlsfdpc4uqbU3MDeCJdec5qFuTr4s9f2K1WiXrafAC2JXRVw%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 627374a15f237a6d-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(81): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 18:23:06 pid:12266 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 18:23:06 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dd86506630c4276ff621aa36eb8ca74bc1614277386; expires=Sat, 27-Mar-21 18:23:06 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c0738dc00007b4740bc3000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=M7Yb2%2FrhON3YQJzyt0uH5rGucxex%2FxWPOlJ852RmbHMfo%2BGc0clei7t752F9HC2suW17dvQ24lQx4FPk2krgHqoqWutJ2Wf8VjyJHVZMi4FudA%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 627374a159c97b47-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(81): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 18:23:15 pid:26301 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:27:43 pid:9288 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:27:43 pid:9288 Workerman[index.php] already running
+2021-02-25 18:27:46 pid:26301 Workerman[index.php] stopping ...
+2021-02-25 18:27:56 pid:13047 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:28:43 pid:13047 Workerman[index.php] stopping ...
+2021-02-25 18:28:53 pid:30036 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:29:17 pid:30036 Workerman[index.php] stopping ...
+2021-02-25 18:29:26 pid:7504 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:32:20 pid:7504 Workerman[index.php] stopping ...
+2021-02-25 18:32:32 pid:30549 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:35:24 pid:30549 Workerman[index.php] stopping ...
+2021-02-25 18:35:32 pid:20509 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:37:08 pid:20509 Workerman[index.php] stopping ...
+2021-02-25 18:37:17 pid:20117 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:40:38 pid:20117 Workerman[index.php] stopping ...
+2021-02-25 18:40:48 pid:20340 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:41:49 pid:20340 Workerman[index.php] stopping ...
+2021-02-25 18:41:57 pid:8627 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:44:36 pid:8627 Workerman[index.php] stopping ...
+2021-02-25 18:44:49 pid:28130 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:45:33 pid:28130 Workerman[index.php] stopping ...
+2021-02-25 18:46:02 pid:16662 Workerman[/var/www/ws.globalsecureinvest.com2/index.php] start in DEBUG mode
+2021-02-25 18:47:05 pid:2668 Workerman[/var/www/ws.globalsecureinvest.com2/index.php] start in DEBUG mode
+2021-02-25 18:47:05 pid:2668 Workerman[/var/www/ws.globalsecureinvest.com2/index.php] already running
+2021-02-25 18:47:07 pid:16662 Workerman[index.php] stopping ...
+2021-02-25 18:47:18 pid:6756 Workerman[/var/www/ws.globalsecureinvest.com2/index.php] start in DEBUG mode
+2021-02-25 18:48:58 pid:3323 Workerman[index.php] start in DEBUG mode
+2021-02-25 18:48:58 pid:3323 Workerman[index.php] already running
+2021-02-25 18:49:00 pid:6756 Workerman[index.php] stopping ...
+2021-02-25 18:49:18 pid:9206 Workerman[index.php] start in DEBUG mode
+2021-02-25 19:18:21 pid:3266 Workerman[index.php] start in DEBUG mode
+2021-02-25 19:18:21 pid:3266 Workerman[index.php] already running
+2021-02-25 19:18:40 pid:9206 Workerman[index.php] stopping ...
+2021-02-25 19:18:52 pid:12546 Workerman[index.php] start in DEBUG mode
+2021-02-25 19:20:10 pid:12546 Workerman[index.php] stopping ...
+2021-02-25 19:20:20 pid:6125 Workerman[index.php] start in DAEMON mode
+2021-02-25 19:22:22 pid:10627 Workerman[index.php] stop 
+2021-02-25 19:22:22 pid:10627 Workerman[index.php] is stopping ...
+2021-02-25 19:22:22 pid:6134 Workerman[index.php] stopping ...
+2021-02-25 19:22:22 pid:6134 Workerman[index.php] has been stopped
+2021-02-25 19:22:22 pid:10627 Workerman[index.php] stop success
+2021-02-25 19:23:28 pid:30574 Workerman[index.php] start in DAEMON mode
+2021-02-25 19:23:48 pid:4041 Workerman[index.php] stop 
+2021-02-25 19:23:48 pid:4041 Workerman[index.php] is stopping ...
+2021-02-25 19:23:48 pid:30584 Workerman[index.php] stopping ...
+2021-02-25 19:23:48 pid:30589 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 19:23:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d01e5e5904be353c081066e0c5752c3f91614281028; expires=Sat, 27-Mar-21 19:23:48 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c3ecb2a0000758f8a270000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=5GzGxKhlrkwK9LkOoDu9mPT0fW1UMoR%2FrbBbrKTAjy%2BIVvREoEwzZswIn2YNiYRsAw4LNzY6C01yS%2BKjBGIZK5y7bUs1mA%2B5uz%2FXR4V43lE3xg%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6273cd8b7f2e758f-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 19:23:48 pid:30584 worker[none:30589] exit with status 64000
+2021-02-25 19:23:48 pid:30584 Workerman[index.php] has been stopped
+2021-02-25 19:23:48 pid:4041 Workerman[index.php] stop success
+2021-02-25 19:25:53 pid:9079 Workerman[index.php] stop 
+2021-02-25 19:25:53 pid:9079 Workerman[index.php] not run
+2021-02-25 19:25:55 pid:9560 Workerman[index.php] start in DAEMON mode
+2021-02-25 19:26:08 pid:13363 Workerman[index.php] stop 
+2021-02-25 19:26:08 pid:13363 Workerman[index.php] is stopping ...
+2021-02-25 19:26:08 pid:9567 Workerman[index.php] stopping ...
+2021-02-25 19:26:09 pid:9571 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 19:26:09 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d582c90110fc8389b9132d7042af6177f1614281168; expires=Sat, 27-Mar-21 19:26:08 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c40ef7100007b3bc986a000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ayw7D2YjbRDKJN52zB65h28TyvnLbI7y3Efh%2BrnjttXAR%2FhxGzB5m11y%2BStWMx2ssPYo8kGK2WKrcJk1hmZiO%2FSM6mSRT9JJyZTFf9OocOVP9A%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6273d0f8bf6e7b3b-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 19:26:09 pid:9567 worker[none:9571] exit with status 64000
+2021-02-25 19:26:09 pid:9567 Workerman[index.php] has been stopped
+2021-02-25 19:26:09 pid:13363 Workerman[index.php] stop success
+2021-02-25 19:26:19 pid:16578 Workerman[index.php] start in DAEMON mode
+2021-02-25 19:26:36 pid:21734 Workerman[index.php] stop 
+2021-02-25 19:26:36 pid:21734 Workerman[index.php] is stopping ...
+2021-02-25 19:26:36 pid:16586 Workerman[index.php] stopping ...
+2021-02-25 19:26:36 pid:16590 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 429 Too Many Requests
+Date: Thu, 25 Feb 2021 19:26:36 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 73
+Connection: keep-alive
+Set-Cookie: __cfduid=d674e760b87bfc162d9ed43ff08a98d0b1614281196; expires=Sat, 27-Mar-21 19:26:36 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 0
+X-Ratelimit-Reset: 1614281218
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c415a5d00005aae2293a000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=NQ8EvQlmbkiF%2FXIpVpbJCy7AOKARW3N1T1qqPMuuUEklMgSn9nxBATiiTenH%2Fb8o%2FMSG36t3YkN5cjJhfa6ELlMW5MDqi0obb%2BaKNtpiKSJq8w%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6273d1a3cf4e5aae-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 19:26:36 pid:16586 worker[none:16590] exit with status 64000
+2021-02-25 19:26:36 pid:16589 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 19:26:36 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d758b5d6be0020487aef836c15a195acf1614281196; expires=Sat, 27-Mar-21 19:26:36 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c415a6e00008ff14b0ae000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=8eldjDL%2Bfm4DgioOv6K8Oz7U%2F0IOtzDPk%2FDEdWfyrX9%2Fps3E4RRlsZJRK2r0WZanhnyHM70LaAjMipNBR3F3XQ2KGjQbpV4%2BQEl8mQU7bOoxfQ%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6273d1a3e8598ff1-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 19:26:36 pid:16586 worker[none:16589] exit with status 64000
+2021-02-25 19:26:36 pid:16586 Workerman[index.php] has been stopped
+2021-02-25 19:26:36 pid:21734 Workerman[index.php] stop success
+2021-02-25 19:26:53 pid:27012 Workerman[index.php] start in DAEMON mode
+2021-02-25 19:26:57 pid:27024 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 429 Too Many Requests
+Date: Thu, 25 Feb 2021 19:26:57 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 73
+Connection: keep-alive
+Set-Cookie: __cfduid=db708b664f91cec9b07579712dc4ce0cd1614281217; expires=Sat, 27-Mar-21 19:26:57 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 0
+X-Ratelimit-Reset: 1614281218
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c41ac7800008e4d7b03e000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ypFm12OEZCUNpIvwr9wEQnERZVwZDV4thsZv0TcHrO21MtwDBhw5BB90S3H2VGGQkWcslK3Jx89dtvI%2FFUj4uQpp8cq%2BQbZPujHV0WZrnrL60w%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6273d2272fee8e4d-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 19:26:57 pid:27024 Worker[27024] process terminated
+2021-02-25 19:26:57 pid:27020 worker[none:27024] exit with status 64000
+2021-02-25 19:26:58 pid:28149 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 429 Too Many Requests
+Date: Thu, 25 Feb 2021 19:26:58 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 73
+Connection: keep-alive
+Set-Cookie: __cfduid=db23aac04eac5102e6d5dd1c1df1f4d6f1614281217; expires=Sat, 27-Mar-21 19:26:57 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 0
+X-Ratelimit-Reset: 1614281218
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c41aec6000000bc980e3000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Jhm0kq1M6wDLd0JpSbjvBeXvcKfr%2FvX%2FSW6%2B5CMT%2FpDL3bOWzhzhiaiOmGAVxQPW7CysK0b3YpinVPHSJ4E1rWzHluxliptEKgEJAeUouucS6Q%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6273d22adca400bc-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(46): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#13 {main}
+2021-02-25 19:26:58 pid:28149 Worker[28149] process terminated
+2021-02-25 19:26:58 pid:27020 worker[none:28149] exit with status 64000
+2021-02-25 19:27:21 pid:2616 Workerman[index.php] stop 
+2021-02-25 19:27:21 pid:2616 Workerman[index.php] is stopping ...
+2021-02-25 19:27:21 pid:27020 Workerman[index.php] stopping ...
+2021-02-25 19:27:21 pid:27020 Workerman[index.php] has been stopped
+2021-02-25 19:27:21 pid:2616 Workerman[index.php] stop success
+2021-02-25 19:31:05 pid:4753 Workerman[index.php] start in DAEMON mode
+2021-02-25 19:31:25 pid:10808 Workerman[index.php] stop 
+2021-02-25 19:31:25 pid:10808 Workerman[index.php] is stopping ...
+2021-02-25 19:31:25 pid:4760 Workerman[index.php] stopping ...
+2021-02-25 19:31:25 pid:4767 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 19:31:25 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dd212bd143ae354844cbcad6230dcd4fe1614281485; expires=Sat, 27-Mar-21 19:31:25 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c45c3bf00003a562e1ed000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=t2IkGCRq3%2BS9K6AJrnbaEdY33PJZ%2B1nrmFbxu7NH4ruGyRQNf%2BjirzV9VhHX7nYaECFXxhRkgG9gFTw70mn%2FYAVvmeek0fVF0aAoqaXh7AkE1w%3D%3D"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6273d8b2cded3a56-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 19:31:25 pid:4760 worker[none:4767] exit with status 64000
+2021-02-25 19:31:25 pid:4760 Workerman[index.php] has been stopped
+2021-02-25 19:31:25 pid:10808 Workerman[index.php] stop success
+2021-02-25 19:31:56 pid:20403 Workerman[index.php] start in DAEMON mode
+2021-02-25 19:32:13 pid:25124 Workerman[index.php] stop 
+2021-02-25 19:32:13 pid:25124 Workerman[index.php] is stopping ...
+2021-02-25 19:32:13 pid:20410 Workerman[index.php] stopping ...
+2021-02-25 19:32:13 pid:20412 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 19:32:13 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d2181b979c0da48ea6e7e54b3a0dbf00c1614281533; expires=Sat, 27-Mar-21 19:32:13 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c467f4900007b4f1e104000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ZqbvNcCZ6GQpr9%2F0ir5MtleUhidVw7A0SHnpAcng%2B%2FaX4ej7PrcE3wygjIa7539Qv3zH%2FYI3hTL0xPTnPKW1ZwtOX%2FR0W6quvfIKal7cMA4TLg%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6273d9dedf067b4f-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 19:32:13 pid:20410 worker[none:20412] exit with status 64000
+2021-02-25 19:32:13 pid:20410 Workerman[index.php] has been stopped
+2021-02-25 19:32:13 pid:25124 Workerman[index.php] stop success
+2021-02-25 19:34:55 pid:8610 Workerman[index.php] start in DAEMON mode
+2021-02-25 19:35:12 pid:13607 Workerman[index.php] stop 
+2021-02-25 19:35:12 pid:13607 Workerman[index.php] is stopping ...
+2021-02-25 19:35:12 pid:8618 Workerman[index.php] stopping ...
+2021-02-25 19:35:13 pid:8622 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 19:35:13 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d2c88081de5ad861569757786b43202671614281713; expires=Sat, 27-Mar-21 19:35:13 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c493dc200008df9c28b6000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=6mCxPFR8eCAmqmjK5lFuXk%2BJh5zA6ZI5SgPg%2B2tW056eVSz%2BrLPpHUg%2FPw4U8fnFdtf6tyhcsbXwEPsu%2BCYRX4O%2FHzVGDkQcy24Sgv6AVfaMgA%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6273de42cd718df9-DME in /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com2/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com2/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com2/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com2/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 19:35:13 pid:8618 worker[none:8622] exit with status 64000
+2021-02-25 19:35:13 pid:8618 Workerman[index.php] has been stopped
+2021-02-25 19:35:13 pid:13607 Workerman[index.php] stop success
+2021-02-25 19:35:50 pid:24777 Workerman[index.php] start in DAEMON mode
+2021-02-25 20:00:01 pid:3428 Workerman[/var/www/ws.globalsecureinvest.com/index.php] restart 
+2021-02-25 20:00:01 pid:3428 Workerman[/var/www/ws.globalsecureinvest.com/index.php] is stopping ...
+2021-02-25 20:00:01 pid:3428 Workerman[/var/www/ws.globalsecureinvest.com/index.php] stop success
+2021-02-25 21:00:01 pid:17576 Workerman[/var/www/ws.globalsecureinvest.com/index.php] restart 
+2021-02-25 21:00:01 pid:17576 Workerman[/var/www/ws.globalsecureinvest.com/index.php] is stopping ...
+2021-02-25 21:00:01 pid:3464 Workerman[index.php] stopping ...
+2021-02-25 21:00:02 pid:3467 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 21:00:02 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d58f438f39a7566fde3913c57028c58b61614286802; expires=Sat, 27-Mar-21 21:00:02 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c96e4b000003a8369be4000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=eUzVYcTwrA9DWnzxhhjt6g1jRGsceEIdsO1nb%2BgB9XzhniLLWgpfMzx7UE%2BFoAjG06thsd7RIKtp3H%2BaIwfVQ7F3TrBi4HM6LvX6qq35BHeJ5w%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 62745a811b973a83-DME in /var/www/ws.globalsecureinvest.com/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 21:00:02 pid:3468 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Thu, 25 Feb 2021 21:00:02 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d65dcc812b45b144a7b364d2a3ad45db51614286802; expires=Sat, 27-Mar-21 21:00:02 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 087c96e4b300003a7107859000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=c72Xc4vovxmVBH7KfHmrx1RyN0Mi9dUOcUSA4ZpfkFNpIioIBRNlDCVl36ZYkbtRmNtBom4OI81xy7ZZjwUeapSRJcE3kzeI4KFR%2Bnuqz%2BVo%2BA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 62745a811d813a71-DME in /var/www/ws.globalsecureinvest.com/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /var/www/ws.globalsecureinvest.com/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /var/www/ws.globalsecureinvest.com/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /var/www/ws.globalsecureinvest.com/index.php(80): WebSocket\Base->text()
+#3 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /var/www/ws.globalsecureinvest.com/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /var/www/ws.globalsecureinvest.com/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 21:00:02 pid:3464 worker[none:3467] exit with status 64000
+2021-02-25 21:00:02 pid:3464 worker[none:3468] exit with status 64000
+2021-02-25 21:00:02 pid:3464 Workerman[index.php] has been stopped
+2021-02-25 21:00:02 pid:17576 Workerman[/var/www/ws.globalsecureinvest.com/index.php] stop success
