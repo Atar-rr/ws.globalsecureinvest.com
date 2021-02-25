@@ -3,8 +3,7 @@
 use GuzzleHttp\Client;
 use Workerman\Connection\TcpConnection;
 use Workerman\Lib\Timer;
-use WSSC\Components\ClientConfig;
-use WSSC\WebSocketClient;
+use Workerman\Worker;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
@@ -39,17 +38,16 @@ $context = [
 ];
 
 //включаем режим демона
-\Workerman\Worker::$daemonize=true;
+Worker::$daemonize=true;
 
 //создаем WebSocket
-$webSocketWorker = new \Workerman\Worker(SOCKET_NAME, $context);
+$webSocketWorker = new Worker(SOCKET_NAME, $context);
 $webSocketWorker->transport = 'ssl';
 
-$config = new ClientConfig();
-$config->setFragmentSize(20000);
-$config->setTimeout(50);
+$client = new \WebSocket\Client(FINHUB_URI);
+$client->setTimeout(40);
+$client->setFragmentSize(30000);
 
-$client = new WebSocketClient(FINHUB_URI, $config);
 
 $webSocketWorker->onConnect = function ($connection) use ($client, $symbols) {
     echo "New connection\n";
@@ -80,7 +78,7 @@ $webSocketWorker->onClose = function () use ($client, $symbols) {
 
 $webSocketWorker->onWorkerStart = function () use ($client, $symbols) {
     foreach ($symbols as $symbol) {
-        $client->send(json_encode([FIELD_TYPE => SUBSCRIBE, FIELD_SYMBOL => $symbol]));
+        $client->text(json_encode([FIELD_TYPE => SUBSCRIBE, FIELD_SYMBOL => $symbol]));
     }
 
     TcpConnection::$defaultMaxSendBufferSize = 10485760;
@@ -88,8 +86,8 @@ $webSocketWorker->onWorkerStart = function () use ($client, $symbols) {
 
 $webSocketWorker->onWorkerStop = function () use ($client, $symbols) {
     foreach ($symbols as $symbol) {
-        $client->send(json_encode([FIELD_TYPE => UNSUBSCRIBE, FIELD_SYMBOL => $symbol]));
+        $client->text(json_encode([FIELD_TYPE => UNSUBSCRIBE, FIELD_SYMBOL => $symbol]));
     }
 };
 
-\Workerman\Worker::runAll();
+Worker::runAll();
