@@ -10,6 +10,8 @@
     "require": {
         "textalk/websocket": "^1.5",
         "workerman/workerman": "^4.0",
-        "ext-json": "*"
+        "ext-json": "*",
+        "arthurkushman/php-wss": "^1.6",
+        "guzzlehttp/guzzle": "^7.0"
     }
 }

@@ -2461,3 +2461,1421 @@ Stack trace:
 2021-02-22 13:07:17 pid:32118 Workerman[index.php] stopping ...
 2021-02-22 13:07:17 pid:32118 Workerman[index.php] has been stopped
 2021-02-22 13:07:17 pid:32200 Workerman[index.php] stop success
+2021-02-22 16:38:44 pid:10701 Workerman[index.php] start in DAEMON mode
+2021-02-22 16:38:50 pid:10734 Workerman[index.php] stop 
+2021-02-22 16:38:50 pid:10734 Workerman[index.php] is stopping ...
+2021-02-22 16:38:50 pid:10703 Workerman[index.php] stopping ...
+2021-02-22 16:38:50 pid:10703 Workerman[index.php] has been stopped
+2021-02-22 16:38:50 pid:10734 Workerman[index.php] stop success
+2021-02-22 16:38:52 pid:10766 Workerman[index.php] start in DAEMON mode
+2021-02-22 16:39:15 pid:11204 Workerman[index.php] stop 
+2021-02-22 16:39:15 pid:11204 Workerman[index.php] is stopping ...
+2021-02-22 16:39:15 pid:10768 Workerman[index.php] stopping ...
+2021-02-22 16:39:15 pid:10768 Workerman[index.php] has been stopped
+2021-02-22 16:39:15 pid:11204 Workerman[index.php] stop success
+2021-02-22 16:39:18 pid:11237 Workerman[index.php] start in DEBUG mode
+2021-02-22 16:39:56 pid:11237 Workerman[index.php] stopping ...
+2021-02-22 16:39:56 pid:11237 Workerman[index.php] has been stopped
+2021-02-22 16:39:57 pid:11414 Workerman[index.php] start in DEBUG mode
+2021-02-22 16:42:16 pid:12983 Workerman[index.php] start in DEBUG mode
+2021-02-22 16:42:16 pid:12983 Workerman[index.php] already running
+2021-02-22 16:42:20 pid:11414 Workerman[index.php] stopping ...
+2021-02-22 16:42:20 pid:11414 Workerman[index.php] has been stopped
+2021-02-22 16:42:22 pid:13048 Workerman[index.php] start in DEBUG mode
+2021-02-22 16:47:42 pid:13048 Workerman[index.php] stopping ...
+2021-02-22 16:47:42 pid:13048 Workerman[index.php] has been stopped
+2021-02-22 16:47:44 pid:15278 Workerman[index.php] start in DEBUG mode
+2021-02-22 16:55:10 pid:17369 Workerman[index.php] start in DEBUG mode
+2021-02-22 16:55:10 pid:17369 Workerman[index.php] already running
+2021-02-22 16:55:15 pid:17581 Workerman[index.php] stop 
+2021-02-22 16:55:15 pid:17581 Workerman[index.php] is stopping ...
+2021-02-22 16:55:20 pid:17581 Workerman[index.php] stop fail
+2021-02-22 16:55:24 pid:17667 Workerman[index.php] restart 
+2021-02-22 16:55:24 pid:17667 Workerman[index.php] is stopping ...
+2021-02-22 16:55:29 pid:17667 Workerman[index.php] stop fail
+2021-02-22 16:55:33 pid:17713 Workerman[index.php] start in DEBUG mode
+2021-02-22 16:55:33 pid:17713 Workerman[index.php] already running
+2021-02-22 16:55:39 pid:15278 Workerman[index.php] stopping ...
+2021-02-22 16:55:39 pid:15278 Workerman[index.php] stopping ...
+2021-02-22 16:55:39 pid:15278 Workerman[index.php] stopping ...
+2021-02-22 16:55:39 pid:15278 Workerman[index.php] has been stopped
+2021-02-22 17:04:04 pid:11299 Workerman[index.php] start in DEBUG mode
+2021-02-22 17:04:49 pid:11299 Workerman[index.php] stopping ...
+2021-02-22 17:04:49 pid:11299 Workerman[index.php] has been stopped
+2021-02-22 17:05:28 pid:11970 Workerman[index.php] start in DEBUG mode
+2021-02-22 17:05:28 pid:11970 worker[none:11971] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11972] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11973] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11974] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11975] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11976] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11977] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11978] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11979] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11980] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11981] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11982] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11983] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11984] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11985] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11986] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11987] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11988] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11989] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11990] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11991] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11992] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11993] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11994] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11995] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11996] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11997] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11998] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:11999] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12000] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12001] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12002] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12003] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12004] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12005] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12006] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12007] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12008] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12009] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12010] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12011] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12012] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12013] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12014] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12015] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12016] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12017] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12018] exit with status 65280
+2021-02-22 17:05:28 pid:11970 worker[none:12019] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12020] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12021] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12022] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12023] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12024] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12025] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12026] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12027] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12028] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12029] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12030] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12031] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12032] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12033] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12034] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12035] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12036] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12037] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12038] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12039] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12040] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12041] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12042] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12043] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12044] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12045] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12046] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12047] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12048] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12049] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12050] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12051] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12052] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12053] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12054] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12055] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12056] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12057] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12058] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12059] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12060] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12061] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12062] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12063] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12064] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12065] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12066] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12068] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12069] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12070] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12071] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12072] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12073] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12074] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12075] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12076] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12077] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12078] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12079] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12080] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12081] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12082] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12083] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12084] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12085] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12086] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12087] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12088] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12089] exit with status 65280
+2021-02-22 17:05:29 pid:11970 worker[none:12090] exit with status 65280
+2021-02-22 17:05:29 pid:11970 Workerman[index.php] stopping ...
+2021-02-22 17:05:29 pid:11970 worker[none:12091] exit with status 65280
+2021-02-22 17:05:29 pid:11970 Workerman[index.php] has been stopped
+2021-02-22 17:05:48 pid:12444 Workerman[index.php] start in DEBUG mode
+2021-02-22 17:05:48 pid:12444 worker[none:12445] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12446] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12447] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12448] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12449] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12450] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12451] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12452] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12453] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12454] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12455] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12456] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12457] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12458] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12459] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12460] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12461] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12462] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12463] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12464] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12465] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12466] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12467] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12468] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12469] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12470] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12471] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12472] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12473] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12474] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12475] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12476] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12477] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12478] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12479] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12480] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12481] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12483] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12484] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12485] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12486] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12487] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12488] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12489] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12490] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12491] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12492] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12493] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12494] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12495] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12496] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12497] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12498] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12499] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12500] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12501] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12502] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12503] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12504] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12505] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12506] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12507] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12508] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12509] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12510] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12511] exit with status 65280
+2021-02-22 17:05:48 pid:12444 worker[none:12512] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12513] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12514] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12515] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12516] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12517] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12518] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12519] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12520] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12521] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12522] exit with status 65280
+2021-02-22 17:05:49 pid:12444 worker[none:12523] exit with status 65280
+2021-02-22 17:05:49 pid:12444 Workerman[index.php] stopping ...
+2021-02-22 17:05:49 pid:12444 worker[none:12524] exit with status 65280
+2021-02-22 17:05:49 pid:12444 Workerman[index.php] has been stopped
+2021-02-22 17:05:56 pid:12558 Workerman[index.php] start in DEBUG mode
+2021-02-22 17:06:04 pid:12558 Workerman[index.php] stopping ...
+2021-02-22 17:06:04 pid:12558 Workerman[index.php] has been stopped
+2021-02-22 17:06:11 pid:12626 Workerman[index.php] start in DEBUG mode
+2021-02-22 17:06:22 pid:12626 Workerman[index.php] stopping ...
+2021-02-22 17:06:22 pid:12626 Workerman[index.php] has been stopped
+2021-02-22 17:06:33 pid:12915 Workerman[index.php] start in DEBUG mode
+2021-02-22 17:29:33 pid:12915 Workerman[index.php] stopping ...
+2021-02-22 17:29:33 pid:12915 Workerman[index.php] has been stopped
+2021-02-22 17:29:34 pid:21138 Workerman[index.php] start in DEBUG mode
+2021-02-22 17:29:51 pid:21138 Workerman[index.php] stopping ...
+2021-02-22 17:29:51 pid:21138 Workerman[index.php] has been stopped
+2021-02-22 17:33:10 pid:22616 Workerman[index.php] start in DEBUG mode
+2021-02-22 17:38:43 pid:22617 WebSocket\ConnectionException: Could only write 0 out of 42 bytes. in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php:473
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(432): WebSocket\Base->throwException()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(216): WebSocket\Base->write()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(95): WebSocket\Base->sendFragment()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(22): WebSocket\Base->text()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(48): Workerman\Worker::runAll()
+#13 {main}
+2021-02-22 17:38:43 pid:22617 Worker[22617] process terminated
+2021-02-22 17:38:43 pid:22616 worker[none:22617] exit with status 64000
+2021-02-22 18:16:01 pid:22616 Workerman[index.php] stopping ...
+2021-02-22 18:16:01 pid:22616 Workerman[index.php] has been stopped
+2021-02-22 18:17:30 pid:6119 Workerman[index.php] start in DEBUG mode
+2021-02-22 18:18:20 pid:6119 Workerman[index.php] stopping ...
+2021-02-22 18:18:20 pid:6119 Workerman[index.php] has been stopped
+2021-02-22 18:18:21 pid:6445 Workerman[index.php] start in DEBUG mode
+2021-02-22 18:18:41 pid:6445 Workerman[index.php] stopping ...
+2021-02-22 18:18:41 pid:6445 Workerman[index.php] has been stopped
+2021-02-22 18:19:43 pid:7027 Workerman[index.php] start in DEBUG mode
+2021-02-22 18:20:40 pid:7027 Workerman[index.php] stopping ...
+2021-02-22 18:20:40 pid:7027 Workerman[index.php] has been stopped
+2021-02-22 18:21:43 pid:7783 Workerman[index.php] start in DEBUG mode
+2021-02-22 18:24:18 pid:7783 Workerman[index.php] stopping ...
+2021-02-22 18:24:18 pid:7783 Workerman[index.php] has been stopped
+2021-02-22 18:25:08 pid:9588 Workerman[index.php] start in DEBUG mode
+2021-02-22 18:26:55 pid:9588 Workerman[index.php] stopping ...
+2021-02-22 18:26:55 pid:9588 Workerman[index.php] has been stopped
+2021-02-22 18:26:57 pid:10501 Workerman[index.php] start in DEBUG mode
+2021-02-22 18:49:40 pid:10501 Workerman[index.php] stopping ...
+2021-02-22 18:49:40 pid:10501 Workerman[index.php] has been stopped
+2021-02-22 18:49:47 pid:19563 Workerman[index.php] start in DEBUG mode
+2021-02-22 18:50:02 pid:19563 Workerman[index.php] stopping ...
+2021-02-22 18:50:02 pid:19563 Workerman[index.php] has been stopped
+2021-02-23 11:58:01 pid:11014 Workerman[index.php] start in DEBUG mode
+2021-02-23 12:08:28 pid:11014 Workerman[index.php] stopping ...
+2021-02-23 12:08:28 pid:11014 Workerman[index.php] has been stopped
+2021-02-23 12:08:31 pid:14617 Workerman[index.php] start in DEBUG mode
+2021-02-23 12:10:42 pid:14617 Workerman[index.php] stopping ...
+2021-02-23 12:10:42 pid:14617 Workerman[index.php] has been stopped
+2021-02-23 12:10:51 pid:15735 Workerman[index.php] start in DEBUG mode
+2021-02-23 12:13:49 pid:15735 Workerman[index.php] stopping ...
+2021-02-23 12:13:49 pid:15735 Workerman[index.php] has been stopped
+2021-02-23 12:13:50 pid:16864 Workerman[index.php] start in DEBUG mode
+2021-02-23 12:14:15 pid:16864 Workerman[index.php] stopping ...
+2021-02-23 12:14:15 pid:16864 Workerman[index.php] has been stopped
+2021-02-23 12:17:34 pid:18009 Workerman[index.php] start in DEBUG mode
+2021-02-23 12:17:52 pid:18009 Workerman[index.php] stopping ...
+2021-02-23 12:17:54 pid:18009 worker[none:18011] exit with status 9
+2021-02-23 12:17:54 pid:18009 Workerman[index.php] has been stopped
+2021-02-23 13:05:56 pid:438 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:06:30 pid:438 Workerman[index.php] stopping ...
+2021-02-23 13:06:30 pid:438 Workerman[index.php] has been stopped
+2021-02-23 13:07:47 pid:1673 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:07:56 pid:1674 WebSocket\TimeoutException: Broken frame, read 0 of stated 2 bytes. in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php:467
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(444): WebSocket\Base->throwException()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(284): WebSocket\Base->read()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(232): WebSocket\Base->receiveFragment()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(46): WebSocket\Base->receive()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(53): Workerman\Worker::runAll()
+#12 {main}
+2021-02-23 13:07:56 pid:1674 Worker[1674] process terminated
+2021-02-23 13:07:56 pid:1673 worker[none:1674] exit with status 64000
+2021-02-23 13:07:57 pid:1673 Workerman[index.php] stopping ...
+2021-02-23 13:07:57 pid:1673 Workerman[index.php] has been stopped
+2021-02-23 13:08:27 pid:1888 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:08:30 pid:1889 WebSocket\ConnectionException: Could not open socket to "ws.finnhub.io:443": Connection timed out (110) stream_socket_client(): unable to connect to ssl://ws.finnhub.io:443 (Connection timed out). in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(24): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(53): Workerman\Worker::runAll()
+#11 {main}
+2021-02-23 13:08:30 pid:1889 Worker[1889] process terminated
+2021-02-23 13:08:30 pid:1888 worker[none:1889] exit with status 64000
+2021-02-23 13:08:35 pid:1888 Workerman[index.php] stopping ...
+2021-02-23 13:08:35 pid:1888 Workerman[index.php] has been stopped
+2021-02-23 13:08:46 pid:2329 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:08:56 pid:2329 Workerman[index.php] stopping ...
+2021-02-23 13:08:56 pid:2329 Workerman[index.php] has been stopped
+2021-02-23 13:09:07 pid:2462 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:09:20 pid:2462 Workerman[index.php] stopping ...
+2021-02-23 13:09:20 pid:2462 Workerman[index.php] has been stopped
+2021-02-23 13:13:04 pid:4197 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:13:22 pid:4197 Workerman[index.php] stopping ...
+2021-02-23 13:13:22 pid:4197 Workerman[index.php] has been stopped
+2021-02-23 13:13:35 pid:4735 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:13:44 pid:4736 WebSocket\TimeoutException: Broken frame, read 0 of stated 2 bytes. in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php:467
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(444): WebSocket\Base->throwException()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(284): WebSocket\Base->read()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(232): WebSocket\Base->receiveFragment()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(45): WebSocket\Base->receive()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(52): Workerman\Worker::runAll()
+#12 {main}
+2021-02-23 13:13:44 pid:4736 Worker[4736] process terminated
+2021-02-23 13:13:44 pid:4735 worker[none:4736] exit with status 64000
+2021-02-23 13:13:46 pid:4735 Workerman[index.php] stopping ...
+2021-02-23 13:13:46 pid:4735 Workerman[index.php] has been stopped
+2021-02-23 13:14:01 pid:4808 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:14:14 pid:4808 Workerman[index.php] stopping ...
+2021-02-23 13:14:14 pid:4808 Workerman[index.php] has been stopped
+2021-02-23 13:14:20 pid:5321 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:14:37 pid:5321 Workerman[index.php] stopping ...
+2021-02-23 13:14:37 pid:5321 Workerman[index.php] has been stopped
+2021-02-23 13:14:45 pid:5464 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:14:58 pid:5464 Workerman[index.php] stopping ...
+2021-02-23 13:14:59 pid:5464 Workerman[index.php] has been stopped
+2021-02-23 13:20:17 pid:7217 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:20:29 pid:7217 Workerman[index.php] stopping ...
+2021-02-23 13:20:30 pid:7217 Workerman[index.php] has been stopped
+2021-02-23 13:20:38 pid:7310 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:20:57 pid:7310 Workerman[index.php] stopping ...
+2021-02-23 13:20:57 pid:7310 Workerman[index.php] has been stopped
+2021-02-23 13:21:14 pid:7739 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:21:29 pid:7739 Workerman[index.php] stopping ...
+2021-02-23 13:21:30 pid:7739 Workerman[index.php] has been stopped
+2021-02-23 13:21:37 pid:7887 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:21:47 pid:7887 Workerman[index.php] stopping ...
+2021-02-23 13:21:48 pid:7887 Workerman[index.php] has been stopped
+2021-02-23 13:22:09 pid:7979 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:22:27 pid:7979 Workerman[index.php] stopping ...
+2021-02-23 13:22:27 pid:7979 Workerman[index.php] has been stopped
+2021-02-23 13:22:47 pid:8309 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:23:00 pid:8309 Workerman[index.php] stopping ...
+2021-02-23 13:23:00 pid:8309 Workerman[index.php] has been stopped
+2021-02-23 13:23:04 pid:8388 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:23:16 pid:8388 Workerman[index.php] stopping ...
+2021-02-23 13:23:17 pid:8388 Workerman[index.php] has been stopped
+2021-02-23 13:41:39 pid:14896 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:41:57 pid:14896 Workerman[index.php] stopping ...
+2021-02-23 13:41:57 pid:14896 Workerman[index.php] has been stopped
+2021-02-23 13:42:32 pid:15267 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:42:48 pid:15267 Workerman[index.php] stopping ...
+2021-02-23 13:42:48 pid:15267 Workerman[index.php] has been stopped
+2021-02-23 13:43:38 pid:15636 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:44:24 pid:15636 Workerman[index.php] stopping ...
+2021-02-23 13:44:24 pid:15636 Workerman[index.php] has been stopped
+2021-02-23 13:44:25 pid:15998 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:44:36 pid:15998 Workerman[index.php] stopping ...
+2021-02-23 13:44:36 pid:15998 Workerman[index.php] has been stopped
+2021-02-23 13:44:42 pid:16140 Workerman[index.php] start in DEBUG mode
+2021-02-23 13:44:58 pid:16140 Workerman[index.php] stopping ...
+2021-02-23 13:44:58 pid:16140 Workerman[index.php] has been stopped
+2021-02-25 00:44:55 pid:23924 Workerman[index.php] start in DAEMON mode
+2021-02-25 00:52:02 pid:23930 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php on line 2497 and exactly 2 expected in /home/sdidenko/PhpstormProjects/sp_web_socket/index.php:42
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#8 {main}
+2021-02-25 00:52:02 pid:23930 Worker[23930] process terminated
+2021-02-25 00:52:02 pid:23926 worker[none:23930] exit with status 64000
+2021-02-25 00:52:10 pid:23927 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php on line 2497 and exactly 2 expected in /home/sdidenko/PhpstormProjects/sp_web_socket/index.php:42
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#8 {main}
+2021-02-25 00:52:10 pid:23927 Worker[23927] process terminated
+2021-02-25 00:52:10 pid:23926 worker[none:23927] exit with status 64000
+2021-02-25 00:52:27 pid:24601 Workerman[index.php] stop 
+2021-02-25 00:52:27 pid:24601 Workerman[index.php] is stopping ...
+2021-02-25 00:52:27 pid:23926 Workerman[index.php] stopping ...
+2021-02-25 00:52:29 pid:23926 worker[none:24543] exit with status 9
+2021-02-25 00:52:29 pid:23926 worker[none:23928] exit with status 9
+2021-02-25 00:52:29 pid:23926 worker[none:23929] exit with status 9
+2021-02-25 00:52:29 pid:23926 worker[none:24564] exit with status 9
+2021-02-25 00:52:29 pid:23926 Workerman[index.php] has been stopped
+2021-02-25 00:52:29 pid:24601 Workerman[index.php] stop success
+2021-02-25 00:52:49 pid:24649 Workerman[index.php] start in DEBUG mode
+2021-02-25 00:52:53 pid:24653 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php on line 2497 and exactly 2 expected in /home/sdidenko/PhpstormProjects/sp_web_socket/index.php:42
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#8 {main}
+2021-02-25 00:52:53 pid:24653 Worker[24653] process terminated
+2021-02-25 00:52:53 pid:24649 worker[none:24653] exit with status 64000
+2021-02-25 00:53:37 pid:24649 Workerman[index.php] stopping ...
+2021-02-25 00:53:38 pid:24650 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 21:53:38 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db149590ad5047271f064cec6bc68042c1614203617; expires=Fri, 26-Mar-21 21:53:37 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a19a7e00003a7740802000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Xjhr3J5vNXq8mgG8OTHM8AmJ3wopZWKBE2pda9eKgmzWBMgvS42kiEYroz6jepEAzEx6BFdepzTYtKMnvEd%2BZBZixckXCEMQrXGs567uh1pI1g%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626c6ba3fe8c3a77-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(72): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 00:53:38 pid:24651 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 21:53:38 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dbff65c40bc5fd73006b960d735684d1f1614203617; expires=Fri, 26-Mar-21 21:53:37 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a19a7f000075ab29aa3000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=LHCD%2BRSJOWWzYnLkeSOsg4JUcDTVb1glKNql0ZIG%2Bxs1gklV3pQlEhmTPkn3Adz7ktqkrJmjgPeLMrumyqoqWt9NLAYDRcIHvUo2RlZzXo3YjA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626c6ba3f93275ab-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(72): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 00:53:38 pid:24649 worker[none:24650] exit with status 64000
+2021-02-25 00:53:38 pid:24649 worker[none:24651] exit with status 64000
+2021-02-25 00:53:38 pid:24649 Workerman[index.php] has been stopped
+2021-02-25 00:53:40 pid:24757 Workerman[index.php] start in DEBUG mode
+2021-02-25 00:53:44 pid:24760 Worker[24760] process terminated with ERROR: E_ERROR "Uncaught Exception: You can't send(array) to client, you need to convert it to a string.  in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Protocols/Websocket.php:236
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Connection/TcpConnection.php(321): Workerman\Protocols\Websocket::encode()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(55): Workerman\Connection\TcpConnection->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(232): {closure}()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(281): Workerman\Events\Select->tick()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/worke in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Protocols/Websocket.php on line 236"
+2021-02-25 00:53:44 pid:24757 worker[none:24760] exit with status 65280
+2021-02-25 00:54:03 pid:24757 Workerman[index.php] stopping ...
+2021-02-25 00:54:03 pid:24759 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 21:54:03 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=da05cf6e7a9c5c7377e24c8b436c2726d1614203643; expires=Fri, 26-Mar-21 21:54:03 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a1fd9d000075af3e1c0000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=tThwelpOpGuf4n%2FRcfWIG7gvgZ%2FhV0RGq302KmbeKcfLSs1aESLz5Yao09TAs1dU7o%2B3VFKaIj8OXVypZzCFlKBbMmSwvBEijzPcNQpTw4wzIw%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626c6c429c0575af-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(72): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 00:54:03 pid:24767 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 21:54:03 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=df27545646485af8a030654c06da015dc1614203643; expires=Fri, 26-Mar-21 21:54:03 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a1fd9c00007b37422de000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=7tpLRkAc626eQWsi8Y0%2FUwhGRiWDdDjUzxDR397kzEqwQ%2BnQRrAQQXP%2Bi0g4MLaa380%2FseBRof7zevuQs8st2z0bypP3Vh2aQv45qM87CS3OtA%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626c6c429fc07b37-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(72): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#15 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#16 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#17 {main}
+2021-02-25 00:54:03 pid:24757 worker[none:24759] exit with status 64000
+2021-02-25 00:54:03 pid:24757 worker[none:24767] exit with status 64000
+2021-02-25 00:54:03 pid:24757 Workerman[index.php] has been stopped
+2021-02-25 00:54:22 pid:24849 Workerman[index.php] start in DEBUG mode
+2021-02-25 00:54:25 pid:24850 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 429 Too Many Requests
+Date: Wed, 24 Feb 2021 21:54:25 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 73
+Connection: keep-alive
+Set-Cookie: __cfduid=d1d7ac54b6a8eafc8b747126b80b44e421614203665; expires=Fri, 26-Mar-21 21:54:25 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 0
+X-Ratelimit-Reset: 1614203678
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a254390000005db3245000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=r49PEblrg5yVBIJIHa6E6n%2BB%2BcjJPOcTu7pxall3iAv1mXNk3dDoH0sZWWuUg7H%2FYfdFF2dVJzRFcB7HDfAJtiBzeoG51hykr8djt%2FM%2FQCg19w%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626c6ccd2ca9005d-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(46): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 00:54:25 pid:24850 Worker[24850] process terminated
+2021-02-25 00:54:26 pid:24849 worker[none:24850] exit with status 64000
+2021-02-25 00:55:00 pid:24849 Workerman[index.php] stopping ...
+2021-02-25 00:55:01 pid:24853 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 21:55:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d453801078aaea803a9790fa0426d49611614203700; expires=Fri, 26-Mar-21 21:55:00 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a2de5b00003aa18c98a000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=EETbsWUUUu8zMzoXTgjnCB8PvGrScyPmj%2FR2TZaOrvKpPB3Hw9%2BjG4NGVAEfONOoOxcGg0t6FPI7pR0R50Yr4sp075pV07lAeXWBfQvPTjt9uQ%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626c6daa2ce73aa1-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(72): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 00:55:01 pid:24849 worker[none:24853] exit with status 64000
+2021-02-25 00:55:01 pid:24849 Workerman[index.php] has been stopped
+2021-02-25 00:56:31 pid:25185 Workerman[index.php] start in DEBUG mode
+2021-02-25 00:57:21 pid:25185 Workerman[index.php] stopping ...
+2021-02-25 00:57:21 pid:25186 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 21:57:21 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=daa2f8521774f0e47d0a954a65b7a6bf51614203841; expires=Fri, 26-Mar-21 21:57:21 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a50274000076b5a7285000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=vOrW2D1xuU7guNQNcCFNobLSQi2jGJ6EasnJY5PpEP90T%2BOA6Q4K8eP3iLK4tHn0Gsg2u3uTe3CF5AGVQCS7WmTC5I6Gy9p7EMYaInvtJdCbJg%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626c7117199176b5-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(74): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(78): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 00:57:21 pid:25185 worker[none:25186] exit with status 64000
+2021-02-25 00:57:21 pid:25185 Workerman[index.php] has been stopped
+2021-02-25 00:57:26 pid:25360 Workerman[index.php] start in DEBUG mode
+2021-02-25 00:58:58 pid:25360 Workerman[index.php] stopping ...
+2021-02-25 00:58:59 pid:25360 Workerman[index.php] has been stopped
+2021-02-25 00:59:20 pid:25691 Workerman[index.php] start in DEBUG mode
+2021-02-25 00:59:36 pid:25691 Workerman[index.php] stopping ...
+2021-02-25 00:59:37 pid:25695 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 21:59:37 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d028341c211a574d9e4c62dfe335876ac1614203976; expires=Fri, 26-Mar-21 21:59:36 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a715050000005d48191000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=m6Q2XdhHiTBSqZnrnWNy3%2FaPU65ql8xl2oBnb71MljHasysb3E2xUzLZfpCzmnpcvV3n9FB6LXqtH0EAKSDLAmolqtk3n9UTgmL2U5272ddGQg%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626c74680847005d-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(73): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(77): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 00:59:37 pid:25691 worker[none:25695] exit with status 64000
+2021-02-25 00:59:37 pid:25691 Workerman[index.php] has been stopped
+2021-02-25 00:59:38 pid:25769 Workerman[index.php] start in DEBUG mode
+2021-02-25 00:59:40 pid:25771 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 429 Too Many Requests
+Date: Wed, 24 Feb 2021 21:59:40 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 73
+Connection: keep-alive
+Set-Cookie: __cfduid=dc3698e326dd72fd7541a7fe84513a2891614203980; expires=Fri, 26-Mar-21 21:59:40 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 0
+X-Ratelimit-Reset: 1614203998
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a7226a00001494a3134000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=kpps4IVOivycHJH2O1B7LvTQECb02YHRAKagWthmYtvdBviKmM5w4K%2FQ5Zx7rZKxndUU0mEeVeGKKMbdQKiZAUJvTlrKRLghlD5pD2tAN6Rbpw%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626c747d7c1a1494-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(46): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(77): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 00:59:40 pid:25771 Worker[25771] process terminated
+2021-02-25 00:59:40 pid:25769 worker[none:25771] exit with status 64000
+2021-02-25 00:59:47 pid:25772 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 429 Too Many Requests
+Date: Wed, 24 Feb 2021 21:59:47 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 73
+Connection: keep-alive
+Set-Cookie: __cfduid=db631dcf8cbb0f29751c0b171d40c24471614203987; expires=Fri, 26-Mar-21 21:59:47 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 0
+X-Ratelimit-Reset: 1614203998
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a73cdb00007b77430bf000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=W%2BBAlT7H0u%2BvnpZdMjrvsWZX3OsuSFoHPVl%2B94u0yjcigMRhsgWUdSxL25JHqz670G73s%2FbVz4JP4agRmc4am2mS%2F4LcWCmpcd24InsEqDt00Q%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626c74a7ca6c7b77-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(46): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(293): Workerman\Worker->acceptConnection()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(77): Workerman\Worker::runAll()
+#11 {main}
+2021-02-25 00:59:47 pid:25772 Worker[25772] process terminated
+2021-02-25 00:59:47 pid:25769 worker[none:25772] exit with status 64000
+2021-02-25 01:01:34 pid:25769 Workerman[index.php] stopping ...
+2021-02-25 01:01:35 pid:25786 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:01:35 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d67e77ecf249d3df0f24753708237c4891614204094; expires=Fri, 26-Mar-21 22:01:34 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877a8e18c0000005f030eb000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=CaV6Y0tknlbsCOYAi7HBsN%2BSHbIK4SZ3odCdy4yYI3uvjWIXDJwvrF8H2C0Cg5keUqH25xExoZ9PuS4Xp52MVtA9q%2F6zclwWP8InAtnRzfbdFw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626c7748e98e005f-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(73): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#15 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#16 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(77): Workerman\Worker::runAll()
+#17 {main}
+2021-02-25 01:01:35 pid:25769 worker[none:25786] exit with status 64000
+2021-02-25 01:01:35 pid:25769 Workerman[index.php] has been stopped
+2021-02-25 01:03:12 pid:26306 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:07:46 pid:26306 Workerman[index.php] stopping ...
+2021-02-25 01:07:47 pid:26309 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:07:47 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dab4f74ef0263193f400178566cbefc8a1614204466; expires=Fri, 26-Mar-21 22:07:46 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877ae8e41000049913d94c000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=W%2FP7Ejz8uF6uK5A%2FzkGOXMAgy61tRz%2Fa918Y6bylAcugemp6a%2B3SnGzmETmhOEZwBc15%2BkAnoC1sQRcWEEBgincHS0Mn1MzgH7k91CZq%2BetTxg%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626c805d3dcd4991-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(73): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(77): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:07:47 pid:26306 worker[none:26309] exit with status 64000
+2021-02-25 01:07:47 pid:26306 Workerman[index.php] has been stopped
+2021-02-25 01:07:51 pid:26913 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:08:27 pid:26913 Workerman[index.php] stopping ...
+2021-02-25 01:08:27 pid:26913 Workerman[index.php] has been stopped
+2021-02-25 01:08:29 pid:27000 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:11:03 pid:27000 Workerman[index.php] stopping ...
+2021-02-25 01:11:03 pid:27000 Workerman[index.php] has been stopped
+2021-02-25 01:11:05 pid:27373 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:12:56 pid:27373 Workerman[index.php] stopping ...
+2021-02-25 01:12:57 pid:27375 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:12:56 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d3a40fac17acb3006886535a41c31d2771614204776; expires=Fri, 26-Mar-21 22:12:56 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877b3486b00007b2b4724e000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=qd6eTUOJEJwrcGujh8JbZV%2BwUcv%2FTJN1FHcTlCIU0NdE3LfjOVGvNq6FtFAI0VkAR9FVKtTn6z9LpSKb1xG53PScCgITbhVitVkShxvCQpfYrg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626c87ed79957b2b-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(72): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:12:57 pid:27373 worker[none:27375] exit with status 64000
+2021-02-25 01:12:57 pid:27373 Workerman[index.php] has been stopped
+2021-02-25 01:13:05 pid:27553 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:13:14 pid:27553 Workerman[index.php] stopping ...
+2021-02-25 01:13:15 pid:27556 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:13:15 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dfa4d3152d0ee5270fa36557749a7205c1614204794; expires=Fri, 26-Mar-21 22:13:14 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877b38f70000078ff4f0d1000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=FB5qtWKa4PPdDYFaygd4YmEYiRHZo%2FfB%2FQRoTeNVpAMp0NF637U%2BJ08Wg9NtQkznv6b5STdDvzreEfT7Ne3Hyf7CW%2F%2F8y6ZE4VTuY0ajm0plPQ%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626c885f1a4778ff-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(72): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(76): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:13:15 pid:27553 worker[none:27556] exit with status 64000
+2021-02-25 01:13:15 pid:27553 Workerman[index.php] has been stopped
+2021-02-25 01:17:29 pid:27937 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:17:40 pid:27937 Workerman[index.php] stopping ...
+2021-02-25 01:17:40 pid:27938 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:17:40 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d2ee55c312421a9ef0644536177088d181614205060; expires=Fri, 26-Mar-21 22:17:40 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877b79bd1000000561239c000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=5rBOMOU5Bp3ZKyEByUrKiAxbdmYpK7ODKn%2FlwV6JsQhZ5amjZ9Rz%2BEAX3CwxmBu0ag0J1b7wEWT9fd4JafGAS7PqLwnitpLyrdMWfbyye8cq5Q%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626c8ed94a8a0056-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(71): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(75): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:17:40 pid:27937 worker[none:27938] exit with status 64000
+2021-02-25 01:17:40 pid:27937 Workerman[index.php] has been stopped
+2021-02-25 01:40:40 pid:30201 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:41:17 pid:30201 Workerman[index.php] stopping ...
+2021-02-25 01:41:18 pid:30204 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:41:18 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dff30bc465bec8d32a5ff3f31ceb638711614206477; expires=Fri, 26-Mar-21 22:41:17 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877cd3d3b00003a6bef3c1000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=hX8NFJTfTMDxLVOZBhif55qt2nREZiku%2F9%2F8ENSLLZhIcyf4k9Qh3Gk7fVOJaEGVSAC1jIcwIQ17fmOuQtW7vgxKZ7yQ4zEbYg61mNRNX510Nw%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626cb1752a873a6b-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(81): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:41:18 pid:30201 worker[none:30204] exit with status 64000
+2021-02-25 01:41:18 pid:30201 Workerman[index.php] has been stopped
+2021-02-25 01:42:56 pid:30457 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:44:04 pid:30458 Worker[30458] process terminated with ERROR: E_ERROR "Uncaught WebSocket\ConnectionException: Empty read; connection dead? in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php:473
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(447): WebSocket\Base->throwException()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(284): WebSocket\Base->read()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(232): WebSocket\Base->receiveFragment()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(56): WebSocket\Base->receive()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(232): {closure}()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(281): Workerman\Events\Select->tick()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#7 /home/sdidenko/Phps in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php on line 473"
+2021-02-25 01:44:04 pid:30457 worker[none:30458] exit with status 65280
+2021-02-25 01:44:14 pid:30457 Workerman[index.php] stopping ...
+2021-02-25 01:44:14 pid:30459 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:44:14 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d6f0611696a8e1707feb181bbb75e37e11614206654; expires=Fri, 26-Mar-21 22:44:14 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877cfeec900007a717aa20000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Rb3vh2V8V5HkNmI9OvvaVJiQQ%2BK%2Fl5WKVGg30ST39dZ2rNvQVj5avmIKrY7geZhi5T5GAjvBHosrGo3b33XCuy2OQqhKSAxo6tLZfzEqoQrSDA%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626cb5c47f867a71-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(81): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:44:14 pid:30457 worker[none:30459] exit with status 64000
+2021-02-25 01:44:14 pid:30457 Workerman[index.php] has been stopped
+2021-02-25 01:46:54 pid:31335 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:47:11 pid:31335 Workerman[index.php] stopping ...
+2021-02-25 01:47:12 pid:31337 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:47:12 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db257613f413a481225532290c328d22f1614206831; expires=Fri, 26-Mar-21 22:47:11 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d2a3df00007b63f53c1000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2BXv7ne9%2FnUNDigw5HdSrMfNfhCNSN97%2FJqPsF8G%2FPXYY5ZtcxSfCoZu1flpku7cbbyzN3W%2BGd1JUPOQ1A9PvjhTs%2BsZ4sMG3SkbPD1tRMqI4dA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626cba196e787b63-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(80): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:47:12 pid:31335 worker[none:31337] exit with status 64000
+2021-02-25 01:47:12 pid:31335 Workerman[index.php] has been stopped
+2021-02-25 01:48:02 pid:31802 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:48:14 pid:31802 Workerman[index.php] stopping ...
+2021-02-25 01:48:15 pid:31806 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:48:15 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dfbef2bcc4e6713797f5fbb786ee86d5d1614206894; expires=Fri, 26-Mar-21 22:48:14 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d39aca00008f611fa02000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=HUcYESobrzdJZSYDI6acDw0OYZNW8PPIatC8XMbSd0apMlPHXf8Szs2qLUT6wpCaDurb7Snu%2Fi4MP74YQS5EHEq9GjqXGQe9fFYy3Sz0qzo8OA%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626cbba479998f61-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(80): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:48:15 pid:31802 worker[none:31806] exit with status 64000
+2021-02-25 01:48:15 pid:31802 Workerman[index.php] has been stopped
+2021-02-25 01:48:55 pid:31898 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:49:05 pid:31898 Workerman[index.php] stopping ...
+2021-02-25 01:49:05 pid:31900 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 429 Too Many Requests
+Date: Wed, 24 Feb 2021 22:49:05 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 73
+Connection: keep-alive
+Set-Cookie: __cfduid=d52061d73ac4c8eb35ff2a8495bd8fd2d1614206945; expires=Fri, 26-Mar-21 22:49:05 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 0
+X-Ratelimit-Reset: 1614206945
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d4603a00002de6ec179000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=UWZ2AEN5eyYw2l5iRQkhBceAx2JR36A6V%2BFW0nLkEkFiEP1RMpYyIc6LodgvmDMuniFFRST3ha7DSHpxMJ1G2x2%2BiaN9zDQRnh16a4OW7Dz7AQ%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626cbce05ccc2de6-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(82): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(86): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:49:05 pid:31898 worker[none:31900] exit with status 64000
+2021-02-25 01:49:05 pid:31902 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:49:05 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d4fdea906d9826778752d3266d4f5cd211614206945; expires=Fri, 26-Mar-21 22:49:05 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d4603a00008ded51000000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Mb%2BH2L7Us5%2BqLb4nlMWzr5wEKPLDAmXm%2FHG8lIssNg44aRFLEiwvwLm7vRBgjWXnVYepk2s0e0Oh4sxNQz9R51nVF0nTnE%2F1rX4vNk0Cgn9nsg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626cbce05c1f8ded-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(82): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(86): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:49:05 pid:31898 worker[none:31902] exit with status 64000
+2021-02-25 01:49:05 pid:31898 Workerman[index.php] has been stopped
+2021-02-25 01:49:15 pid:31974 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:49:24 pid:31974 Workerman[index.php] stopping ...
+2021-02-25 01:49:24 pid:31977 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:49:24 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d1db61cd427decdd2fe785c99c7bda2a21614206964; expires=Fri, 26-Mar-21 22:49:24 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d4aa7e00008f315a3b3000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=j1RRIPBpUll0bDi1BPrYGtnaKWheyzAuFTl7EB6GoOgafqIIvCQybri2PMdIA%2BPcPpoZhxQCjw6rhNLCe7URwQs4Avy%2F991Bv%2F%2Fsfqs2DiMQJw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626cbd5729be8f31-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(81): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:49:24 pid:31974 worker[none:31977] exit with status 64000
+2021-02-25 01:49:24 pid:31974 Workerman[index.php] has been stopped
+2021-02-25 01:50:37 pid:378 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:50:58 pid:378 Workerman[index.php] stopping ...
+2021-02-25 01:50:58 pid:381 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:50:58 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db8703998cb81acc2c71ec76e968a2e3a1614207058; expires=Fri, 26-Mar-21 22:50:58 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d6197600007b4bc1b95000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=TaN9v1%2Bow2Ol%2BzEYQly9GaGbGWmfw51OKXuZ0iqpNNgsXTIowSjpGfndRFpbDI9CKPZy29eZVOHJ2gbTPL4ID935Aab6BLwk98MR%2B755svh6mQ%3D%3D"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626cbfa2585e7b4b-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(82): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(86): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:50:58 pid:378 worker[none:381] exit with status 64000
+2021-02-25 01:50:58 pid:378 Workerman[index.php] has been stopped
+2021-02-25 01:51:16 pid:486 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:51:29 pid:486 Workerman[index.php] stopping ...
+2021-02-25 01:51:29 pid:488 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 429 Too Many Requests
+Date: Wed, 24 Feb 2021 22:51:29 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 73
+Connection: keep-alive
+Set-Cookie: __cfduid=d0e6516a05b25a2523a57799d8d17fa781614207089; expires=Fri, 26-Mar-21 22:51:29 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+X-Ratelimit-Limit: 5
+X-Ratelimit-Remaining: 0
+X-Ratelimit-Reset: 1614207107
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d6936200007a7d73227000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=e37zdaM3bYsqDFzAVsDWEwK%2BmyY6ygUC%2BOziGPlFskWtoVsS6n0HK5mHFd13gPfRlcIfp9cDrM5FiJzc59FB1uLd9i%2Fzn49TjU0Y85sSEN9gvw%3D%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626cc0656ec87a7d-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(81): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:51:29 pid:490 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:51:29 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d6cdb2917a0c03cba6d1a959344ef5ab01614207089; expires=Fri, 26-Mar-21 22:51:29 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d6936100007b4b9c04f000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=MaAsde3pS0UvLi47yyQji6S0j7fAUZ6Bd8ZV%2BkU029qJKS5N1F1QRkhECjVPAoASU2n86pMeJdHieloaDou2u1UMSMdsf6xbSO2MKDwOQIbrTw%3D%3D"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626cc0656dc67b4b-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(81): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(85): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:51:29 pid:486 worker[none:488] exit with status 64000
+2021-02-25 01:51:29 pid:486 worker[none:490] exit with status 64000
+2021-02-25 01:51:29 pid:486 Workerman[index.php] has been stopped
+2021-02-25 01:52:02 pid:836 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:52:19 pid:836 Workerman[index.php] stopping ...
+2021-02-25 01:52:19 pid:840 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:52:19 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d58fc3a11a82bc2bb240d8328a782668e1614207139; expires=Fri, 26-Mar-21 22:52:19 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d755f20000006195bde000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=0of3lE8bdsnuF%2BP3vZlQSfIKzBXGhf4SUzfUHl9dTxGOPDKT2YN%2FcCjqq%2FwE6GbJZrSA%2FPwU5R0s9hxwEVCKTjrpbQWGqZQ0Fdyct2Gz1tbXDw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 626cc19cbd910061-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(80): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:52:19 pid:836 worker[none:840] exit with status 64000
+2021-02-25 01:52:19 pid:836 Workerman[index.php] has been stopped
+2021-02-25 01:54:38 pid:1062 Workerman[index.php] start in DEBUG mode
+2021-02-25 01:54:59 pid:1062 Workerman[index.php] stopping ...
+2021-02-25 01:54:59 pid:1063 WebSocket\ConnectionException: Connection to 'wss://ws.finnhub.io/?token=c0nakvf48v6v9lphti50' failed: Server sent invalid upgrade response: HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 24 Feb 2021 22:54:59 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d6ff453cced989f1bb732a5bbe29c5a661614207299; expires=Fri, 26-Mar-21 22:54:59 GMT; path=/; domain=.finnhub.io; HttpOnly; SameSite=Lax; Secure
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0877d9c6e500003a839986e000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=oHzvyqh0GZPGf6AsmceVy50T6EtIVOqkk0IRkBppptS7RsXi3RCV6X%2B%2BWimzt1SfviE90JVc5PhWLxirf9oSgogpjoIkwKzn1nVptXfnHZEi2A%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 626cc584aad23a83-DME in /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Client.php:188
+Stack trace:
+#0 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(79): WebSocket\Client->connect()
+#1 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/textalk/websocket/lib/Base.php(114): WebSocket\Base->send()
+#2 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(80): WebSocket\Base->text()
+#3 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2443): {closure}()
+#4 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#5 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#6 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#7 [internal function]: Workerman\Events\Select->signalHandler()
+#8 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#9 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#10 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#11 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#12 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#13 /home/sdidenko/PhpstormProjects/sp_web_socket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#14 /home/sdidenko/PhpstormProjects/sp_web_socket/index.php(84): Workerman\Worker::runAll()
+#15 {main}
+2021-02-25 01:54:59 pid:1062 worker[none:1063] exit with status 64000
+2021-02-25 01:54:59 pid:1062 Workerman[index.php] has been stopped

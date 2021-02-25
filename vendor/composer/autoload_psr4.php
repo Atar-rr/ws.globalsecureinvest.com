@@ -8,5 +8,12 @@ $baseDir = dirname($vendorDir);
 return array(
     'Workerman\\' => array($vendorDir . '/workerman/workerman'),
     'WebSocket\\' => array($vendorDir . '/textalk/websocket/lib'),
+    'WSSC\\' => array($vendorDir . '/arthurkushman/php-wss/src'),
+    'WSSCTEST\\' => array($vendorDir . '/arthurkushman/php-wss/tests'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
+    'Psr\\Http\\Client\\' => array($vendorDir . '/psr/http-client/src'),
+    'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
+    'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
+    'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
 );
