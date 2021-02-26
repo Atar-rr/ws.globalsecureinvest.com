@@ -18,17 +18,6 @@ const FIELD_TYPE   = 'type';
 const FIELD_DATA   = 'data';
 const FIELD_S      = 's';
 
-$httpClient = new Client();
-
-//запрашиваем данные о том, какие акции нужно получать
-try {
-    $httpClient = new Client();
-    $request = $httpClient->request('GET', 'https://globalsecureinvest.com/wp-json/wp/v2/symbols');
-    $symbols = json_decode($request->getBody()->getContents(), true);
-} catch (\Exception $e) {
-    $symbols = ['AAPL', 'FB', 'TSLA', 'PLTR', 'AMZN', 'ATVI', 'MSFT'];
-}
-
 $context = [
     'ssl' => [
         'local_cert'=> '/etc/letsencrypt/live/ws.globalsecureinvest.com/cert.pem',
@@ -36,6 +25,8 @@ $context = [
         'verify_peer'  => false,
     ]
 ];
+
+$httpClient = new Client();
 
 //включаем режим демона
 Worker::$daemonize=true;
@@ -49,7 +40,7 @@ $client->setTimeout(40);
 $client->setFragmentSize(30000);
 
 
-$webSocketWorker->onConnect = function ($connection) use ($client, $symbols) {
+$webSocketWorker->onConnect = function ($connection) use ($client) {
     echo "New connection\n";
 };
 
@@ -72,11 +63,18 @@ $webSocketWorker->onMessage = function ($connection, $message) use ($webSocketWo
     });
 };
 
-$webSocketWorker->onClose = function () use ($client, $symbols) {
+$webSocketWorker->onClose = function () use ($client) {
     echo "Connection closed\n";
 };
 
-$webSocketWorker->onWorkerStart = function () use ($client, $symbols) {
+$webSocketWorker->onWorkerStart = function () use ($client, $httpClient) {
+    //запрашиваем данные о том, какие акции нужно получать
+    try {
+        $request = $httpClient->request('GET', 'https://globalsecureinvest.com/wp-json/wp/v2/symbols');
+        $symbols = json_decode($request->getBody()->getContents(), true);
+    } catch (\Exception $e) {
+    }
+
     foreach ($symbols as $symbol) {
         $client->text(json_encode([FIELD_TYPE => SUBSCRIBE, FIELD_SYMBOL => $symbol]));
     }
@@ -84,7 +82,14 @@ $webSocketWorker->onWorkerStart = function () use ($client, $symbols) {
     TcpConnection::$defaultMaxSendBufferSize = 10485760;
 };
 
-$webSocketWorker->onWorkerStop = function () use ($client, $symbols) {
+$webSocketWorker->onWorkerStop = function () use ($client, $httpClient) {
+    //запрашиваем данные о том, какие акции нужно получать
+    try {
+        $request = $httpClient->request('GET', 'https://globalsecureinvest.com/wp-json/wp/v2/symbols');
+        $symbols = json_decode($request->getBody()->getContents(), true);
+    } catch (\Exception $e) {
+    }
+
     foreach ($symbols as $symbol) {
         $client->text(json_encode([FIELD_TYPE => UNSUBSCRIBE, FIELD_SYMBOL => $symbol]));
     }
