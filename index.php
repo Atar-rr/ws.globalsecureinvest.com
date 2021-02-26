@@ -26,8 +26,6 @@ $context = [
     ]
 ];
 
-$httpClient = new Client();
-
 //включаем режим демона
 Worker::$daemonize=true;
 
@@ -36,8 +34,8 @@ $webSocketWorker = new Worker(SOCKET_NAME, $context);
 $webSocketWorker->transport = 'ssl';
 
 $client = new \WebSocket\Client(FINHUB_URI);
-$client->setTimeout(40);
-$client->setFragmentSize(30000);
+$client->setTimeout(60);
+$client->setFragmentSize(300000);
 
 
 $webSocketWorker->onConnect = function ($connection) {
@@ -45,21 +43,24 @@ $webSocketWorker->onConnect = function ($connection) {
 };
 
 $webSocketWorker->onMessage = function ($connection, $message) use ($webSocketWorker, $client) {
-    $time_interval = 1;
+    $time_interval = 1.5;
 
-    Timer::add($time_interval, function() use ($connection, $client, $message)
-    {
+    Timer::add($time_interval, function () use ($connection, $client, $message) {
         $result = [];
-        $resultFinhub = json_decode($client->receive(), true);
+        try {
+            $resultFinhub = json_decode($client->receive(), true);
+            var_dump($resultFinhub);
+            $returnSymbols = json_decode($message, true);
+            if (!empty($returnSymbols) && !empty($resultFinhub) && isset($resultFinhub[FIELD_DATA])) {
+                $result = array_filter($resultFinhub[FIELD_DATA], function ($item) use ($returnSymbols) {
+                    return in_array($item[FIELD_S], $returnSymbols);
+                });
+            }
 
-        $returnSymbols = json_decode($message, true);
-        if (!empty($returnSymbols) && !empty($resultFinhub) && isset($resultFinhub[FIELD_DATA])) {
-            $result = array_filter($resultFinhub[FIELD_DATA], function ($item) use ($returnSymbols) {
-                return in_array($item[FIELD_S], $returnSymbols);
-            });
+            $connection->send(empty($returnSymbols) === false ? json_encode($result, JSON_UNESCAPED_UNICODE) : json_encode($resultFinhub, JSON_UNESCAPED_UNICODE));
+        } catch (\Exception $e) {
+            echo $e;
         }
-
-        $connection->send(empty($returnSymbols) === false ? json_encode($result, JSON_UNESCAPED_UNICODE) : json_encode($resultFinhub, JSON_UNESCAPED_UNICODE));
     });
 };
 
@@ -67,7 +68,14 @@ $webSocketWorker->onClose = function ($connection) {
     echo "Connection closed\n";
 };
 
-$webSocketWorker->onWorkerStart = function () use ($client, $httpClient) {
+$webSocketWorker->onError = function ($connection) {
+    echo "Connection error\n";
+};
+
+$webSocketWorker->onWorkerStart = function () use ($client) {
+    $httpClient = new Client();
+    $symbols = [];
+
     //запрашиваем данные о том, какие акции нужно получать
     try {
         $request = $httpClient->request('GET', 'https://globalsecureinvest.com/wp-json/wp/v2/symbols');
@@ -83,7 +91,10 @@ $webSocketWorker->onWorkerStart = function () use ($client, $httpClient) {
     TcpConnection::$defaultMaxSendBufferSize = 10485760;
 };
 
-$webSocketWorker->onWorkerStop = function () use ($client, $httpClient) {
+$webSocketWorker->onWorkerStop = function () use ($client) {
+    $symbols = [];
+    $httpClient = new Client();
+
     //запрашиваем данные о том, какие акции нужно получать
     try {
         $request = $httpClient->request('GET', 'https://globalsecureinvest.com/wp-json/wp/v2/symbols');
