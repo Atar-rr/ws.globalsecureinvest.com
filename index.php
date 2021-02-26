@@ -40,12 +40,12 @@ $client->setTimeout(40);
 $client->setFragmentSize(30000);
 
 
-$webSocketWorker->onConnect = function ($connection) use ($client) {
+$webSocketWorker->onConnect = function ($connection) {
     echo "New connection\n";
 };
 
 $webSocketWorker->onMessage = function ($connection, $message) use ($webSocketWorker, $client) {
-    $time_interval = 1.1;
+    $time_interval = 1;
 
     Timer::add($time_interval, function() use ($connection, $client, $message)
     {
@@ -63,7 +63,7 @@ $webSocketWorker->onMessage = function ($connection, $message) use ($webSocketWo
     });
 };
 
-$webSocketWorker->onClose = function () use ($client) {
+$webSocketWorker->onClose = function ($connection) {
     echo "Connection closed\n";
 };
 
@@ -73,6 +73,7 @@ $webSocketWorker->onWorkerStart = function () use ($client, $httpClient) {
         $request = $httpClient->request('GET', 'https://globalsecureinvest.com/wp-json/wp/v2/symbols');
         $symbols = json_decode($request->getBody()->getContents(), true);
     } catch (\Exception $e) {
+        echo $e;
     }
 
     foreach ($symbols as $symbol) {
@@ -88,6 +89,7 @@ $webSocketWorker->onWorkerStop = function () use ($client, $httpClient) {
         $request = $httpClient->request('GET', 'https://globalsecureinvest.com/wp-json/wp/v2/symbols');
         $symbols = json_decode($request->getBody()->getContents(), true);
     } catch (\Exception $e) {
+        echo $e;
     }
 
     foreach ($symbols as $symbol) {
