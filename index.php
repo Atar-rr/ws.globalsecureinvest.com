@@ -23,8 +23,8 @@ $httpClient = new Client();
 //запрашиваем данные о том, какие акции нужно получать
 try {
     $httpClient = new Client();
-    $data = $httpClient->request('GET', '');
-    $symbols = json_decode($data, true);
+    $request = $httpClient->request('GET', 'https://globalsecureinvest.com/wp-json/wp/v2/symbols');
+    $symbols = json_decode($request->getBody()->getContents(), true);
 } catch (\Exception $e) {
     $symbols = ['AAPL', 'FB', 'TSLA', 'PLTR', 'AMZN', 'ATVI', 'MSFT'];
 }
