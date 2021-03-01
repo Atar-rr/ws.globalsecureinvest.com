@@ -7,7 +7,7 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-const SOCKET_NAME = 'websocket://0.0.0.0:2346';
+const SOCKET_NAME = 'websocket://45.90.33.104:2346';
 
 const FIELD_DATA   = 'data';
 const FIELD_S      = 's';
@@ -23,13 +23,13 @@ $context = [
 $usersReturnSymbols = [];
 
 //включаем режим демона
-//Worker::$daemonize=true;
+Worker::$daemonize=true;
 
 //создаем WebSocket
 $webSocketWorker = new Worker(SOCKET_NAME, $context);
 $webSocketWorker->count = 1;
 $webSocketWorker->reusePort = false;
-//$webSocketWorker->transport = 'ssl';
+$webSocketWorker->transport = 'ssl';
 
 $webSocketWorker->onConnect = function ($connection) {
     echo "New connection\n";
