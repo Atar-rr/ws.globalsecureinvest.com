@@ -1,0 +1,92 @@
+<?php
+
+use Workerman\Connection\TcpConnection;
+use Workerman\Lib\Timer;
+use Workerman\Worker;
+use PhpAmqpLib\Connection\AMQPStreamConnection;
+
+require_once __DIR__ . '/../../vendor/autoload.php';
+
+const SOCKET_NAME = 'websocket://0.0.0.0:2346';
+
+const FIELD_DATA   = 'data';
+const FIELD_S      = 's';
+
+$context = [
+    'ssl' => [
+        'local_cert'=> '/etc/letsencrypt/live/ws.globalsecureinvest.com/cert.pem',
+        'local_pk' =>  '/etc/letsencrypt/live/ws.globalsecureinvest.com/privkey.pem',
+        'verify_peer'  => false,
+    ]
+];
+
+$usersReturnSymbols = [];
+
+//включаем режим демона
+//Worker::$daemonize=true;
+
+//создаем WebSocket
+$webSocketWorker = new Worker(SOCKET_NAME, $context);
+$webSocketWorker->count = 1;
+$webSocketWorker->reusePort = false;
+//$webSocketWorker->transport = 'ssl';
+
+$webSocketWorker->onConnect = function ($connection) {
+    echo "New connection\n";
+};
+
+$webSocketWorker->onMessage = function ($connection, $message) use ($webSocketWorker, &$usersReturnSymbols) {
+    $usersReturnSymbols[$connection->id] = json_decode($message, true);
+};
+
+$webSocketWorker->onClose = function ($connection) use (&$usersReturnSymbols){
+    unset($usersReturnSymbols[$connection->id]);
+    echo "Connection closed\n";
+};
+
+$webSocketWorker->onError = function ($connection) {
+    echo "Connection error\n";
+};
+
+$webSocketWorker->onWorkerStart = function () use ($webSocketWorker, $usersReturnSymbols) {
+    echo "Worker start\n";
+    TcpConnection::$defaultMaxSendBufferSize = 10485760;
+    $connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
+    $channel = $connection->channel();
+    $channel->queue_declare('finhub', false, false, false, false);
+    $time_interval = 0.5;
+    $data = '';
+
+    Timer::add($time_interval, function () use ($webSocketWorker, $usersReturnSymbols, $channel, &$data) {
+        $callback = function ($msg) use (&$data) {
+            $data = $msg->body;
+            $msg->ack();
+        };
+        $channel->basic_consume('finhub', '', false, false, false, false, $callback);
+
+        $channel->wait();
+        $data = json_decode($data, true) ?? [];
+
+        foreach ($webSocketWorker->connections as $key => $connection) {
+            $result = [];
+            $returnSymbols = $usersReturnSymbols[$key] ?? [];
+
+            if (!empty($returnSymbols) && !empty($data) && isset($data[FIELD_DATA])) {
+                $result = array_filter($data[FIELD_DATA], function ($item) use ($returnSymbols) {
+                    return in_array($item[FIELD_S], $returnSymbols);
+                });
+            }
+
+            $connection->send(
+                empty($returnSymbols) === false ?
+                    json_encode($result, JSON_UNESCAPED_UNICODE) : json_encode($data, JSON_UNESCAPED_UNICODE)
+            );
+        }
+    });
+};
+
+$webSocketWorker->onWorkerStop = function () {
+    echo "Worker stop\n";
+};
+
+Worker::runAll();

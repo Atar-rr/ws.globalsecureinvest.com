@@ -7,11 +7,19 @@
             "email": "s.didenko@rabota.ru"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\Client\\": "App/Client"
+        }
+    },
     "require": {
         "textalk/websocket": "^1.5",
         "workerman/workerman": "^4.0",
         "ext-json": "*",
         "arthurkushman/php-wss": "^1.6",
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^7.0",
+        "php-amqplib/php-amqplib": "^2.12",
+        "ext-pcntl": "*",
+        "ext-posix": "*"
     }
 }
