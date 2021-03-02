@@ -95,7 +95,6 @@ class ClientWorker
 
         $symbols = $this->getSymbols();
 
-//	$symbols = ['AAPL'];
         foreach ($symbols as $symbol) {
 		usleep(20000);
 		var_dump($symbol);
@@ -105,20 +104,15 @@ class ClientWorker
         $this->startRabbit();
         while (true) {
             try {
-                //usleep(60000);
-		$result = $client->receive();
-		var_dump($result);
-		if (!is_string($result)) {
-			$result = json_encode([], true);
-			//continue;
-		}
+                usleep(250000);
+                $result = $client->receive();
                 $msg = new AMQPMessage($result);
                 $this->channel->basic_publish($msg, '', self::QUEUE_FINHUB);
-	    } catch (\Exception $e) {
-		    $result = json_encode([], true);
-		    $msg = new AMQPMessage($result);
+            } catch (\Exception $e) {
+                $this->log($e->getMessage());
+                $result = json_encode([], true);
+                $msg = new AMQPMessage($result);
                 $this->channel->basic_publish($msg, '', self::QUEUE_FINHUB);
-		    echo $e;
             }
         }
     }
@@ -147,6 +141,6 @@ class ClientWorker
     {
         $message .= "\n";
         $date = date('Y-m-d H:i:s');
-        file_put_contents(__DIR__ . '/' . $this->logFile, $date . ' '. $message , LOCK_EX | FILE_APPEND);
+        file_put_contents(__DIR__ . '/' . $this->logFile, $date . ' '. var_export($message, true) , LOCK_EX | FILE_APPEND);
     }
 }
