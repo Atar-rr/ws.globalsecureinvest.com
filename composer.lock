@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "43bf8f7c82cb9e5a22ec697c4165793b",
@@ -49,20 +49,6 @@
                 "web socket client",
                 "web socket server",
                 "web-sockets"
-            ],
-            "funding": [
-                {
-                    "url": "https://issuehunt.io/r/arthurkushman",
-                    "type": "issuehunt"
-                },
-                {
-                    "url": "https://liberapay.com/arthurkushman",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://www.patreon.com/user?u=26175584",
-                    "type": "patreon"
-                }
             ],
             "time": "2020-12-27T14:41:35+00:00"
         },
@@ -143,24 +129,6 @@
                 "psr-7",
                 "rest",
                 "web service"
-            ],
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/Nyholm",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/alexeyshockov",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/gmponos",
-                    "type": "github"
-                }
             ],
             "time": "2020-10-10T11:47:56+00:00"
         },
@@ -561,20 +529,6 @@
                 "x.509",
                 "x509"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/terrafrost",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/phpseclib",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-02-12T16:18:16+00:00"
         },
         {
@@ -866,6 +820,5 @@
         "ext-pcntl": "*",
         "ext-posix": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }

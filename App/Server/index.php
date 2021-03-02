@@ -23,12 +23,11 @@ $context = [
 $usersReturnSymbols = [];
 
 //включаем режим демона
-Worker::$daemonize=true;
+//Worker::$daemonize=true;
 
 //создаем WebSocket
 $webSocketWorker = new Worker(SOCKET_NAME, $context);
 $webSocketWorker->count = 1;
-$webSocketWorker->reusePort = false;
 $webSocketWorker->transport = 'ssl';
 
 $webSocketWorker->onConnect = function ($connection) {
@@ -48,23 +47,25 @@ $webSocketWorker->onError = function ($connection) {
     echo "Connection error\n";
 };
 
-$webSocketWorker->onWorkerStart = function () use ($webSocketWorker, $usersReturnSymbols) {
+$webSocketWorker->onWorkerStart = function () use ($webSocketWorker, &$usersReturnSymbols) {
     echo "Worker start\n";
     TcpConnection::$defaultMaxSendBufferSize = 10485760;
     $connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
     $channel = $connection->channel();
     $channel->queue_declare('finhub', false, false, false, false);
-    $time_interval = 0.5;
+    $time_interval = 0.7;
     $data = '';
 
-    Timer::add($time_interval, function () use ($webSocketWorker, $usersReturnSymbols, $channel, &$data) {
+    Timer::add($time_interval, function () use ($webSocketWorker, &$usersReturnSymbols, $channel, &$data) {
         $callback = function ($msg) use (&$data) {
             $data = $msg->body;
             $msg->ack();
-        };
+	};
+	var_dump($data);
         $channel->basic_consume('finhub', '', false, false, false, false, $callback);
 
-        $channel->wait();
+	$channel->wait(null, true);
+	if (is_string($data)) {
         $data = json_decode($data, true) ?? [];
 
         foreach ($webSocketWorker->connections as $key => $connection) {
@@ -80,8 +81,14 @@ $webSocketWorker->onWorkerStart = function () use ($webSocketWorker, $usersRetur
             $connection->send(
                 empty($returnSymbols) === false ?
                     json_encode($result, JSON_UNESCAPED_UNICODE) : json_encode($data, JSON_UNESCAPED_UNICODE)
-            );
-        }
+	    );
+	    echo 1 ."\n";
+	}
+	} else {
+		 foreach ($webSocketWorker->connections as $key => $connection) {
+			 $connection->send(json_encode([]));
+		 }
+	}
     });
 };
 

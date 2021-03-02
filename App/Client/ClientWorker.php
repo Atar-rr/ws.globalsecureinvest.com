@@ -10,7 +10,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 
 class ClientWorker
 {
-    const FINHUB_URI = 'wss://ws.finnhub.io?token=c0nakvf48v6v9lphti50';
+    const FINHUB_URI = 'wss://ws.finnhub.io?token=bttiuof48v6or4rafi40';
     const SYMBOLS_URI = 'https://globalsecureinvest.com/wp-json/wp/v2/symbols';
     const SUBSCRIBE = 'subscribe';
     const FIELD_SYMBOL = 'symbol';
@@ -91,24 +91,34 @@ class ClientWorker
     protected function worker()
     {
         $client = new \WebSocket\Client(self::FINHUB_URI);
-        $client->setTimeout(5);
+        $client->setTimeout(10);
 
         $symbols = $this->getSymbols();
-        $symbols[] = 'BINANCE:BTCUSDT'; #TODO убрать
 
+//	$symbols = ['AAPL'];
         foreach ($symbols as $symbol) {
-            usleep(10000);
+		usleep(20000);
+		var_dump($symbol);
             $client->text(json_encode([self::FIELD_TYPE => self::SUBSCRIBE, self::FIELD_SYMBOL => $symbol]));
         }
 
         $this->startRabbit();
         while (true) {
             try {
-                usleep(500000);
-                $result = $client->receive();
+                //usleep(60000);
+		$result = $client->receive();
+		var_dump($result);
+		if (!is_string($result)) {
+			$result = json_encode([], true);
+			//continue;
+		}
                 $msg = new AMQPMessage($result);
                 $this->channel->basic_publish($msg, '', self::QUEUE_FINHUB);
-            } catch (\Exception $e) {
+	    } catch (\Exception $e) {
+		    $result = json_encode([], true);
+		    $msg = new AMQPMessage($result);
+                $this->channel->basic_publish($msg, '', self::QUEUE_FINHUB);
+		    echo $e;
             }
         }
     }
