@@ -97,7 +97,6 @@ class ClientWorker
 
         foreach ($symbols as $symbol) {
 		usleep(20000);
-		var_dump($symbol);
             $client->text(json_encode([self::FIELD_TYPE => self::SUBSCRIBE, self::FIELD_SYMBOL => $symbol]));
         }
 

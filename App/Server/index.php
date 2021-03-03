@@ -18,7 +18,7 @@ $context = [
 ];
 
 //включаем режим демона
-//Worker::$daemonize=true;
+Worker::$daemonize=true;
 
 //создаем WebSocket
 $webSocketWorker = new Worker(SOCKET_NAME, $context);
@@ -51,7 +51,8 @@ $webSocketWorker->onWorkerStart = function () use ($webSocketWorker) {
     $data = '';
 
     Timer::add($time_interval, function () use ($webSocketWorker, $channel, &$data) {
-        $callback = function ($msg) use (&$data) {
+	    $callback = function ($msg) use (&$data) {
+		    $data = '';
             $data = $msg->body;
             $msg->ack();
         };
