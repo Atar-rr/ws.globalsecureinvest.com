@@ -52,7 +52,6 @@ $webSocketWorker->onWorkerStart = function () use ($webSocketWorker) {
 
     Timer::add($time_interval, function () use ($webSocketWorker, $channel, &$data) {
 	    $callback = function ($msg) use (&$data) {
-		    $data = '';
             $data = $msg->body;
             $msg->ack();
         };
@@ -62,6 +61,7 @@ $webSocketWorker->onWorkerStart = function () use ($webSocketWorker) {
         foreach ($webSocketWorker->connections as $connection) {
             $connection->send(is_string($data) ? $data : json_encode([]));
         }
+        $data = json_encode([]);
     });
 };
 

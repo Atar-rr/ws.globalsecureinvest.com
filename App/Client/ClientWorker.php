@@ -32,7 +32,7 @@ class ClientWorker
 
     public function __construct()
     {
-        $uniqPrefix = str_replace('/', '_', getenv()['PWD']);
+        $uniqPrefix = '_Client_Worker_php';
         $this->pidFile = $uniqPrefix . ".pid";
         $this->logFile = $uniqPrefix . ".log";
         $this->masterPid = is_file(__DIR__ . "/{$this->pidFile}") ?
