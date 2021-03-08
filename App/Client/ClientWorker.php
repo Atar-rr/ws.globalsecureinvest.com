@@ -10,15 +10,15 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 
 class ClientWorker
 {
-    const FINHUB_URI = 'wss://ws.finnhub.io?token=bttiuof48v6or4rafi40';
-    const SYMBOLS_URI = 'https://globalsecureinvest.com/wp-json/wp/v2/symbols';
-    const SUBSCRIBE = 'subscribe';
-    const FIELD_SYMBOL = 'symbol';
-    const FIELD_TYPE = 'type';
-    const QUEUE_FINHUB = 'finhub';
-    const START = 'start';
-    const STOP = 'stop';
-    const DAEMON_COMMANDS = [self::START, self::STOP];
+    protected const FINHUB_URI = 'wss://ws.finnhub.io?token=bttiuof48v6or4rafi40';
+    protected const SYMBOLS_URI = 'https://globalsecureinvest.com/wp-json/wp/v2/symbols';
+    protected const SUBSCRIBE = 'subscribe';
+    protected const FIELD_SYMBOL = 'symbol';
+    protected const FIELD_TYPE = 'type';
+    protected const QUEUE_FINHUB = 'finhub';
+    protected const START = 'start';
+    protected const STOP = 'stop';
+    protected const DAEMON_COMMANDS = [self::START, self::STOP];
 
     protected $pidFile = '';
 
@@ -39,19 +39,20 @@ class ClientWorker
             file_get_contents(__DIR__ . "/{$this->pidFile}") : 0;
     }
 
-    public function run()
+    public function run(): void
     {
         $this->checkCommand();
         $this->daemonize();
+        $this->resetStd();
         $this->worker();
     }
 
-    private function checkCommand()
+    private function checkCommand(): void
     {
         global $argv;
 
         foreach ($argv as $item) {
-            if (in_array($item, self::DAEMON_COMMANDS)) {
+            if (in_array($item, self::DAEMON_COMMANDS, true)) {
                 $this->command = $item;
             }
         }
@@ -77,7 +78,7 @@ class ClientWorker
         }
     }
 
-    protected function daemonize()
+    protected function daemonize(): void
     {
         $childPid = pcntl_fork();
         if ($childPid > 0) {
@@ -88,7 +89,7 @@ class ClientWorker
         file_put_contents(__DIR__ . '/' . $this->pidFile, posix_getpid());
     }
 
-    protected function worker()
+    protected function worker(): void
     {
         $client = new \WebSocket\Client(self::FINHUB_URI);
         $client->setTimeout(10);
@@ -96,21 +97,45 @@ class ClientWorker
         $symbols = $this->getSymbols();
 
         foreach ($symbols as $symbol) {
-		usleep(20000);
+            usleep(20000);
             $client->text(json_encode([self::FIELD_TYPE => self::SUBSCRIBE, self::FIELD_SYMBOL => $symbol]));
         }
 
         $this->startRabbit();
+        $i = 0;
+        $skipSymbols = [];
         while (true) {
             try {
-                usleep(250000);
                 $result = $client->receive();
-                $msg = new AMQPMessage($result);
+                $result = json_decode($result, true, 512, JSON_THROW_ON_ERROR);
+                if (!isset($result['data'])) {
+                    continue;
+                }
+
+                foreach ($result['data'] as $value) {
+                    if (in_array($value['s'], $skipSymbols, true)) {
+                        continue;
+                    }
+                    $skipSymbols[] = $value['s'];
+                    $msg['data'][] = $value;
+                }
+
+                $i++;
+                if ($i < 7) {
+                    continue;
+                }
+
+                $msg['type'] = 'trade';
+                $msg = new AMQPMessage(json_encode($msg));
                 $this->channel->basic_publish($msg, '', self::QUEUE_FINHUB);
+
+                //сбрасываем переменные
+                $msg = [];
+                $skipSymbols = [];
+                $i = 0;
             } catch (\Exception $e) {
                 $this->log($e->getMessage());
-                $result = json_encode([], true);
-                $msg = new AMQPMessage($result);
+                $msg = new AMQPMessage(json_encode([]));
                 $this->channel->basic_publish($msg, '', self::QUEUE_FINHUB);
             }
         }
@@ -134,6 +159,16 @@ class ClientWorker
         $connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
         $this->channel = $connection->channel();
         $this->channel->queue_declare(self::QUEUE_FINHUB, false, false, false, false);
+    }
+
+    protected function resetStd()
+    {
+        fclose(STDIN);
+        fclose(STDOUT);
+        fclose(STDERR);
+        fopen('/dev/null', 'rb');
+        fopen(__DIR__ . '/application.log', 'ab');
+        fopen(__DIR__ . '/daemon.log', 'ab');
     }
 
     protected function log($message)

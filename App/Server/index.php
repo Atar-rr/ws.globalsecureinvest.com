@@ -47,7 +47,7 @@ $webSocketWorker->onWorkerStart = function () use ($webSocketWorker) {
     $connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
     $channel = $connection->channel();
     $channel->queue_declare('finhub', false, false, false, false);
-    $time_interval = 0.7;
+    $time_interval = 0.1;
     $data = '';
 
     Timer::add($time_interval, function () use ($webSocketWorker, $channel, &$data) {
