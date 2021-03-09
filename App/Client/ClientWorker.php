@@ -24,7 +24,7 @@ class ClientWorker
 
     protected $logFileError = '';
 
-    protected $logFile = __DIR__ . '/log.txt';
+    protected $logFile = 'log.txt';
 
     protected $command = '';
 
