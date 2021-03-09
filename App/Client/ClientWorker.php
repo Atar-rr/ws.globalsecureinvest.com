@@ -22,7 +22,9 @@ class ClientWorker
 
     protected $pidFile = '';
 
-    protected $logFile = '';
+    protected $logFileError = '';
+
+    protected $logFile = __DIR__ . '/log.txt';
 
     protected $command = '';
 
@@ -34,7 +36,7 @@ class ClientWorker
     {
         $uniqPrefix = '_Client_Worker_php';
         $this->pidFile = $uniqPrefix . ".pid";
-        $this->logFile = $uniqPrefix . ".log";
+        $this->logFileError = $uniqPrefix . ".log";
         $this->masterPid = is_file(__DIR__ . "/{$this->pidFile}") ?
             file_get_contents(__DIR__ . "/{$this->pidFile}") : 0;
     }
@@ -63,7 +65,7 @@ class ClientWorker
             if ($masterIsAlive) {
                 $msg = "Процесс уже запущен\n";
                 echo $msg;
-                $this->log($msg);
+                $this->log($msg, $this->logFileError);
                 exit();
             }
 
@@ -109,6 +111,7 @@ class ClientWorker
                 $result = $client->receive();
                 $result = json_decode($result, true, 512, JSON_THROW_ON_ERROR);
                 if (!isset($result['data'])) {
+                    $this->log('Отсутсвует data в результате', $this->logFile);
                     continue;
                 }
 
@@ -121,12 +124,13 @@ class ClientWorker
                 }
 
                 $i++;
-                if ($i < 7) {
+                if ($i < 12) {
                     continue;
                 }
 
                 $msg['type'] = 'trade';
-                $msg = new AMQPMessage(json_encode($msg));
+                $msg = new AMQPMessage(json_encode($msg, JSON_THROW_ON_ERROR));
+                $this->log($msg, $this->logFile);
                 $this->channel->basic_publish($msg, '', self::QUEUE_FINHUB);
 
                 //сбрасываем переменные
@@ -134,7 +138,8 @@ class ClientWorker
                 $skipSymbols = [];
                 $i = 0;
             } catch (\Exception $e) {
-                $this->log($e->getMessage());
+                $i++;
+                $this->log($e->getMessage(), $this->logFileError);
                 $msg = new AMQPMessage(json_encode([]));
                 $this->channel->basic_publish($msg, '', self::QUEUE_FINHUB);
             }
@@ -146,22 +151,22 @@ class ClientWorker
         try {
             $httpClient = new Client();
             $request = $httpClient->request('GET', self::SYMBOLS_URI);
-            $symbols = json_decode($request->getBody()->getContents(), true);
+            $symbols = json_decode($request->getBody()->getContents(), true, 512, JSON_THROW_ON_ERROR);
         } catch (\Throwable $e) {
-            $this->log($e->getMessage());
+            $this->log($e->getMessage(), $this->logFileError);
         }
 
         return $symbols ?? [];
     }
 
-    protected function startRabbit()
+    protected function startRabbit(): void
     {
         $connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
         $this->channel = $connection->channel();
         $this->channel->queue_declare(self::QUEUE_FINHUB, false, false, false, false);
     }
 
-    protected function resetStd()
+    protected function resetStd(): void
     {
         fclose(STDIN);
         fclose(STDOUT);
@@ -171,10 +176,10 @@ class ClientWorker
         fopen(__DIR__ . '/daemon.log', 'ab');
     }
 
-    protected function log($message)
+    protected function log($message, $logFile): void
     {
         $message .= "\n";
         $date = date('Y-m-d H:i:s');
-        file_put_contents(__DIR__ . '/' . $this->logFile, $date . ' '. var_export($message, true) , LOCK_EX | FILE_APPEND);
+        file_put_contents(__DIR__ . '/' . $logFile, $date . ' '. var_export($message, true) . "\n", LOCK_EX | FILE_APPEND);
     }
 }
