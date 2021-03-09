@@ -180,6 +180,6 @@ class ClientWorker
     {
         $message .= "\n";
         $date = date('Y-m-d H:i:s');
-        file_put_contents(__DIR__ . '/' . $logFile, $date . ' '. var_export($message, true) . "\n", LOCK_EX | FILE_APPEND);
+        file_put_contents(__DIR__ . '/' . $logFile, $date . ' '. var_export($message, true), LOCK_EX | FILE_APPEND);
     }
 }
