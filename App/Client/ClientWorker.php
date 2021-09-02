@@ -10,7 +10,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 
 class ClientWorker
 {
-    protected const FINHUB_URI = 'wss://ws.finnhub.io?token=bttiuof48v6or4rafi40';
+    protected const FINHUB_URI = '';
     protected const SYMBOLS_URI = 'https://globalsecureinvest.com/wp-json/wp/v2/symbols';
     protected const SUBSCRIBE = 'subscribe';
     protected const FIELD_SYMBOL = 'symbol';
